@@ -23,7 +23,7 @@ export default function Carousel({ title, children }: Props) {
     if (!el) return;
     const first = el.querySelector<HTMLElement>("[data-carousel-item]");
     const itemW = first?.getBoundingClientRect().width ?? 300;
-    const step = itemW + 16; // 16 = gap-4
+    const step = itemW + 16; 
     el.scrollBy({ left: dir === "left" ? -step : step, behavior: "smooth" });
   };
 

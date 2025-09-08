@@ -3,6 +3,10 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --glass-thumb: rgba(255, 255, 255, 0.22);
+  --glass-thumb-hover: rgba(255, 255, 255, 0.34);
+  --glass-thumb-active: rgba(255, 255, 255, 0.5);
+  --glass-track: transparent;
 }
 
 @theme inline {
@@ -23,4 +27,26 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.glass-scroll {
+  scrollbar-width: thin; /* Firefox */
+  scrollbar-color: var(--glass-thumb) var(--glass-track);
+  scrollbar-gutter: stable both-edges;
+}
+
+/* Chrome/Edge/Safari */
+.glass-scroll::-webkit-scrollbar { width: 8px; }
+.glass-scroll::-webkit-scrollbar-track { background: var(--glass-track); }
+.glass-scroll::-webkit-scrollbar-thumb {
+  background-color: var(--glass-thumb);
+  border-radius: 9999px;
+  border: 2px solid transparent;   /* внутренний зазор для «стекла» */
+  background-clip: content-box;
+}
+.glass-scroll::-webkit-scrollbar-thumb:hover {
+  background-color: var(--glass-thumb-hover);
+}
+.glass-scroll::-webkit-scrollbar-thumb:active {
+  background-color: var(--glass-thumb-active);
 }

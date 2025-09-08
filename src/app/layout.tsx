@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import './globals.css';
+import HeaderSearch from '@/components/HeaderSearch';
 
 export const metadata: Metadata = {
   title: 'Food Explorer Lite',
@@ -13,9 +14,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <header className="sticky top-0 z-20 backdrop-blur border-b border-white/10">
           <div className="mx-auto max-w-[1200px] px-[25px] py-4 flex items-center justify-between">
             <div className="text-xl font-semibold">🍽️ Food Explorer</div>
-            <nav className="text-sm text-white/80">
-              {/* при необходимости ссылки */}
-            </nav>
+              <HeaderSearch />
           </div>
         </header>
 
