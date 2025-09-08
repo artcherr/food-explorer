@@ -1,0 +1,3678 @@
+[
+  {
+    "id": "dish-beshbarmak",
+    "slug": "beshbarmak",
+    "name": "Beshbarmak",
+    "cuisine": "kyrgyz",
+    "image": "https://placehold.co/800x600/jpg?text=Beshbarmak",
+    "shortDescription": "Beshbarmak — signature kyrgyz dish.",
+    "description": "Beshbarmak is a popular kyrgyz cuisine dish showcased in this demo. Prepared with local ingredients.",
+    "ingredients": [
+      "говядина",
+      "лук",
+      "специи"
+    ],
+    "places": [
+      {
+        "restaurantId": "rest-kg-2",
+        "price": 400
+      },
+      {
+        "restaurantId": "rest-kg-1",
+        "price": 390
+      },
+      {
+        "restaurantId": "rest-kg-5",
+        "price": 330
+      }
+    ]
+  },
+  {
+    "id": "dish-kuurdak",
+    "slug": "kuurdak",
+    "name": "Kuurdak",
+    "cuisine": "kyrgyz",
+    "image": "https://placehold.co/800x600/jpg?text=Kuurdak",
+    "shortDescription": "Kuurdak — signature kyrgyz dish.",
+    "description": "Kuurdak is a popular kyrgyz cuisine dish showcased in this demo. Prepared with local ingredients.",
+    "ingredients": [
+      "говядина",
+      "лук",
+      "специи"
+    ],
+    "places": [
+      {
+        "restaurantId": "rest-kg-7",
+        "price": 300
+      },
+      {
+        "restaurantId": "rest-kg-1",
+        "price": 380
+      },
+      {
+        "restaurantId": "rest-eu-1",
+        "price": 390
+      }
+    ]
+  },
+  {
+    "id": "dish-shorpo",
+    "slug": "shorpo",
+    "name": "Shorpo",
+    "cuisine": "kyrgyz",
+    "image": "https://placehold.co/800x600/jpg?text=Shorpo",
+    "shortDescription": "Shorpo — signature kyrgyz dish.",
+    "description": "Shorpo is a popular kyrgyz cuisine dish showcased in this demo. Prepared with local ingredients.",
+    "ingredients": [
+      "лук",
+      "говядина",
+      "специи"
+    ],
+    "places": [
+      {
+        "restaurantId": "rest-eu-1",
+        "price": 390
+      },
+      {
+        "restaurantId": "rest-kg-9",
+        "price": 530
+      },
+      {
+        "restaurantId": "rest-kg-7",
+        "price": 620
+      }
+    ]
+  },
+  {
+    "id": "dish-manty",
+    "slug": "manty",
+    "name": "Manty",
+    "cuisine": "kyrgyz",
+    "image": "https://placehold.co/800x600/jpg?text=Manty",
+    "shortDescription": "Manty — signature kyrgyz dish.",
+    "description": "Manty is a popular kyrgyz cuisine dish showcased in this demo. Prepared with local ingredients.",
+    "ingredients": [
+      "говядина",
+      "специи",
+      "лапша"
+    ],
+    "places": [
+      {
+        "restaurantId": "rest-kg-7",
+        "price": 340
+      },
+      {
+        "restaurantId": "rest-kg-6",
+        "price": 380
+      },
+      {
+        "restaurantId": "rest-kg-5",
+        "price": 460
+      }
+    ]
+  },
+  {
+    "id": "dish-samsa",
+    "slug": "samsa",
+    "name": "Samsa",
+    "cuisine": "kyrgyz",
+    "image": "https://placehold.co/800x600/jpg?text=Samsa",
+    "shortDescription": "Samsa — signature kyrgyz dish.",
+    "description": "Samsa is a popular kyrgyz cuisine dish showcased in this demo. Prepared with local ingredients.",
+    "ingredients": [
+      "лук",
+      "говядина",
+      "лапша"
+    ],
+    "places": [
+      {
+        "restaurantId": "rest-kg-6",
+        "price": 470
+      }
+    ]
+  },
+  {
+    "id": "dish-plov",
+    "slug": "plov",
+    "name": "Plov",
+    "cuisine": "kyrgyz",
+    "image": "https://placehold.co/800x600/jpg?text=Plov",
+    "shortDescription": "Plov — signature kyrgyz dish.",
+    "description": "Plov is a popular kyrgyz cuisine dish showcased in this demo. Prepared with local ingredients.",
+    "ingredients": [
+      "лук",
+      "специи",
+      "говядина"
+    ],
+    "places": [
+      {
+        "restaurantId": "rest-kg-2",
+        "price": 600
+      },
+      {
+        "restaurantId": "rest-kg-7",
+        "price": 430
+      },
+      {
+        "restaurantId": "rest-eu-2",
+        "price": 650
+      }
+    ]
+  },
+  {
+    "id": "dish-kymyz-set",
+    "slug": "kymyz-set",
+    "name": "Kymyz Set",
+    "cuisine": "kyrgyz",
+    "image": "https://placehold.co/800x600/jpg?text=Kymyz+Set",
+    "shortDescription": "Kymyz Set — signature kyrgyz dish.",
+    "description": "Kymyz Set is a popular kyrgyz cuisine dish showcased in this demo. Prepared with local ingredients.",
+    "ingredients": [
+      "говядина",
+      "лапша",
+      "лук"
+    ],
+    "places": [
+      {
+        "restaurantId": "rest-kg-2",
+        "price": 430
+      },
+      {
+        "restaurantId": "rest-kg-1",
+        "price": 300
+      },
+      {
+        "restaurantId": "rest-kg-4",
+        "price": 390
+      }
+    ]
+  },
+  {
+    "id": "dish-boorsok",
+    "slug": "boorsok",
+    "name": "Boorsok",
+    "cuisine": "kyrgyz",
+    "image": "https://placehold.co/800x600/jpg?text=Boorsok",
+    "shortDescription": "Boorsok — signature kyrgyz dish.",
+    "description": "Boorsok is a popular kyrgyz cuisine dish showcased in this demo. Prepared with local ingredients.",
+    "ingredients": [
+      "лук",
+      "говядина",
+      "лапша"
+    ],
+    "places": [
+      {
+        "restaurantId": "rest-eu-1",
+        "price": 350
+      },
+      {
+        "restaurantId": "rest-kg-6",
+        "price": 480
+      }
+    ]
+  },
+  {
+    "id": "dish-kazy",
+    "slug": "kazy",
+    "name": "Kazy",
+    "cuisine": "kyrgyz",
+    "image": "https://placehold.co/800x600/jpg?text=Kazy",
+    "shortDescription": "Kazy — signature kyrgyz dish.",
+    "description": "Kazy is a popular kyrgyz cuisine dish showcased in this demo. Prepared with local ingredients.",
+    "ingredients": [
+      "лапша",
+      "говядина",
+      "специи"
+    ],
+    "places": [
+      {
+        "restaurantId": "rest-eu-1",
+        "price": 630
+      },
+      {
+        "restaurantId": "rest-eu-2",
+        "price": 650
+      },
+      {
+        "restaurantId": "rest-kg-2",
+        "price": 350
+      }
+    ]
+  },
+  {
+    "id": "dish-chuchuk",
+    "slug": "chuchuk",
+    "name": "Chuchuk",
+    "cuisine": "kyrgyz",
+    "image": "https://placehold.co/800x600/jpg?text=Chuchuk",
+    "shortDescription": "Chuchuk — signature kyrgyz dish.",
+    "description": "Chuchuk is a popular kyrgyz cuisine dish showcased in this demo. Prepared with local ingredients.",
+    "ingredients": [
+      "лапша",
+      "лук",
+      "специи"
+    ],
+    "places": [
+      {
+        "restaurantId": "rest-kg-5",
+        "price": 690
+      },
+      {
+        "restaurantId": "rest-eu-1",
+        "price": 600
+      }
+    ]
+  },
+  {
+    "id": "dish-naryn",
+    "slug": "naryn",
+    "name": "Naryn",
+    "cuisine": "kyrgyz",
+    "image": "https://placehold.co/800x600/jpg?text=Naryn",
+    "shortDescription": "Naryn — signature kyrgyz dish.",
+    "description": "Naryn is a popular kyrgyz cuisine dish showcased in this demo. Prepared with local ingredients.",
+    "ingredients": [
+      "лук",
+      "лапша",
+      "специи"
+    ],
+    "places": [
+      {
+        "restaurantId": "rest-kg-4",
+        "price": 270
+      }
+    ]
+  },
+  {
+    "id": "dish-kyrgyz-pilaf",
+    "slug": "kyrgyz-pilaf",
+    "name": "Kyrgyz Pilaf",
+    "cuisine": "kyrgyz",
+    "image": "https://placehold.co/800x600/jpg?text=Kyrgyz+Pilaf",
+    "shortDescription": "Kyrgyz Pilaf — signature kyrgyz dish.",
+    "description": "Kyrgyz Pilaf is a popular kyrgyz cuisine dish showcased in this demo. Prepared with local ingredients.",
+    "ingredients": [
+      "лук",
+      "говядина",
+      "лапша"
+    ],
+    "places": [
+      {
+        "restaurantId": "rest-kg-4",
+        "price": 610
+      }
+    ]
+  },
+  {
+    "id": "dish-lepeshka-bread",
+    "slug": "lepeshka-bread",
+    "name": "Lepeshka Bread",
+    "cuisine": "kyrgyz",
+    "image": "https://placehold.co/800x600/jpg?text=Lepeshka+Bread",
+    "shortDescription": "Lepeshka Bread — signature kyrgyz dish.",
+    "description": "Lepeshka Bread is a popular kyrgyz cuisine dish showcased in this demo. Prepared with local ingredients.",
+    "ingredients": [
+      "лапша",
+      "говядина",
+      "специи"
+    ],
+    "places": [
+      {
+        "restaurantId": "rest-eu-1",
+        "price": 340
+      },
+      {
+        "restaurantId": "rest-kg-8",
+        "price": 410
+      }
+    ]
+  },
+  {
+    "id": "dish-kurut-plate",
+    "slug": "kurut-plate",
+    "name": "Kurut Plate",
+    "cuisine": "kyrgyz",
+    "image": "https://placehold.co/800x600/jpg?text=Kurut+Plate",
+    "shortDescription": "Kurut Plate — signature kyrgyz dish.",
+    "description": "Kurut Plate is a popular kyrgyz cuisine dish showcased in this demo. Prepared with local ingredients.",
+    "ingredients": [
+      "лапша",
+      "лук",
+      "специи"
+    ],
+    "places": [
+      {
+        "restaurantId": "rest-kg-10",
+        "price": 500
+      },
+      {
+        "restaurantId": "rest-kg-7",
+        "price": 480
+      },
+      {
+        "restaurantId": "rest-eu-2",
+        "price": 390
+      }
+    ]
+  },
+  {
+    "id": "dish-gulchatay-salad",
+    "slug": "gulchatay-salad",
+    "name": "Gulchatay Salad",
+    "cuisine": "kyrgyz",
+    "image": "https://placehold.co/800x600/jpg?text=Gulchatay+Salad",
+    "shortDescription": "Gulchatay Salad — signature kyrgyz dish.",
+    "description": "Gulchatay Salad is a popular kyrgyz cuisine dish showcased in this demo. Prepared with local ingredients.",
+    "ingredients": [
+      "лапша",
+      "лук",
+      "говядина"
+    ],
+    "places": [
+      {
+        "restaurantId": "rest-kg-1",
+        "price": 320
+      }
+    ]
+  },
+  {
+    "id": "dish-khan-kebab",
+    "slug": "khan-kebab",
+    "name": "Khan Kebab",
+    "cuisine": "kyrgyz",
+    "image": "https://placehold.co/800x600/jpg?text=Khan+Kebab",
+    "shortDescription": "Khan Kebab — signature kyrgyz dish.",
+    "description": "Khan Kebab is a popular kyrgyz cuisine dish showcased in this demo. Prepared with local ingredients.",
+    "ingredients": [
+      "специи",
+      "лук",
+      "лапша"
+    ],
+    "places": [
+      {
+        "restaurantId": "rest-kg-7",
+        "price": 490
+      },
+      {
+        "restaurantId": "rest-kg-10",
+        "price": 490
+      },
+      {
+        "restaurantId": "rest-kg-2",
+        "price": 630
+      }
+    ]
+  },
+  {
+    "id": "dish-chak-chak",
+    "slug": "chak-chak",
+    "name": "Chak-Chak",
+    "cuisine": "kyrgyz",
+    "image": "https://placehold.co/800x600/jpg?text=Chak-Chak",
+    "shortDescription": "Chak-Chak — signature kyrgyz dish.",
+    "description": "Chak-Chak is a popular kyrgyz cuisine dish showcased in this demo. Prepared with local ingredients.",
+    "ingredients": [
+      "лук",
+      "говядина",
+      "лапша"
+    ],
+    "places": [
+      {
+        "restaurantId": "rest-kg-1",
+        "price": 680
+      },
+      {
+        "restaurantId": "rest-eu-1",
+        "price": 590
+      },
+      {
+        "restaurantId": "rest-kg-2",
+        "price": 420
+      }
+    ]
+  },
+  {
+    "id": "dish-tokoch",
+    "slug": "tokoch",
+    "name": "Tokoch",
+    "cuisine": "kyrgyz",
+    "image": "https://placehold.co/800x600/jpg?text=Tokoch",
+    "shortDescription": "Tokoch — signature kyrgyz dish.",
+    "description": "Tokoch is a popular kyrgyz cuisine dish showcased in this demo. Prepared with local ingredients.",
+    "ingredients": [
+      "лапша",
+      "лук",
+      "говядина"
+    ],
+    "places": [
+      {
+        "restaurantId": "rest-kg-3",
+        "price": 250
+      },
+      {
+        "restaurantId": "rest-kg-8",
+        "price": 410
+      }
+    ]
+  },
+  {
+    "id": "dish-kazili-besh",
+    "slug": "kazili-besh",
+    "name": "Kazili Besh",
+    "cuisine": "kyrgyz",
+    "image": "https://placehold.co/800x600/jpg?text=Kazili+Besh",
+    "shortDescription": "Kazili Besh — signature kyrgyz dish.",
+    "description": "Kazili Besh is a popular kyrgyz cuisine dish showcased in this demo. Prepared with local ingredients.",
+    "ingredients": [
+      "лук",
+      "говядина",
+      "специи"
+    ],
+    "places": [
+      {
+        "restaurantId": "rest-kg-5",
+        "price": 630
+      },
+      {
+        "restaurantId": "rest-eu-1",
+        "price": 370
+      },
+      {
+        "restaurantId": "rest-kg-9",
+        "price": 340
+      }
+    ]
+  },
+  {
+    "id": "dish-jorgom",
+    "slug": "jorgom",
+    "name": "Jorgom",
+    "cuisine": "kyrgyz",
+    "image": "https://placehold.co/800x600/jpg?text=Jorgom",
+    "shortDescription": "Jorgom — signature kyrgyz dish.",
+    "description": "Jorgom is a popular kyrgyz cuisine dish showcased in this demo. Prepared with local ingredients.",
+    "ingredients": [
+      "лапша",
+      "говядина",
+      "лук"
+    ],
+    "places": [
+      {
+        "restaurantId": "rest-kg-6",
+        "price": 320
+      },
+      {
+        "restaurantId": "rest-kg-8",
+        "price": 480
+      },
+      {
+        "restaurantId": "rest-kg-1",
+        "price": 440
+      }
+    ]
+  },
+  {
+    "id": "dish-manti-with-pumpkin",
+    "slug": "manti-with-pumpkin",
+    "name": "Manti with Pumpkin",
+    "cuisine": "kyrgyz",
+    "image": "https://placehold.co/800x600/jpg?text=Manti+with+Pumpkin",
+    "shortDescription": "Manti with Pumpkin — signature kyrgyz dish.",
+    "description": "Manti with Pumpkin is a popular kyrgyz cuisine dish showcased in this demo. Prepared with local ingredients.",
+    "ingredients": [
+      "лапша",
+      "лук",
+      "специи"
+    ],
+    "places": [
+      {
+        "restaurantId": "rest-kg-2",
+        "price": 290
+      },
+      {
+        "restaurantId": "rest-eu-2",
+        "price": 590
+      },
+      {
+        "restaurantId": "rest-kg-8",
+        "price": 330
+      }
+    ]
+  },
+  {
+    "id": "dish-syrne",
+    "slug": "syrne",
+    "name": "Syrne",
+    "cuisine": "kyrgyz",
+    "image": "https://placehold.co/800x600/jpg?text=Syrne",
+    "shortDescription": "Syrne — signature kyrgyz dish.",
+    "description": "Syrne is a popular kyrgyz cuisine dish showcased in this demo. Prepared with local ingredients.",
+    "ingredients": [
+      "лапша",
+      "лук",
+      "специи"
+    ],
+    "places": [
+      {
+        "restaurantId": "rest-kg-3",
+        "price": 630
+      },
+      {
+        "restaurantId": "rest-kg-5",
+        "price": 520
+      },
+      {
+        "restaurantId": "rest-kg-9",
+        "price": 380
+      }
+    ]
+  },
+  {
+    "id": "dish-kuurdak-with-liver",
+    "slug": "kuurdak-with-liver",
+    "name": "Kuurdak with Liver",
+    "cuisine": "kyrgyz",
+    "image": "https://placehold.co/800x600/jpg?text=Kuurdak+with+Liver",
+    "shortDescription": "Kuurdak with Liver — signature kyrgyz dish.",
+    "description": "Kuurdak with Liver is a popular kyrgyz cuisine dish showcased in this demo. Prepared with local ingredients.",
+    "ingredients": [
+      "специи",
+      "говядина",
+      "лук"
+    ],
+    "places": [
+      {
+        "restaurantId": "rest-eu-1",
+        "price": 480
+      },
+      {
+        "restaurantId": "rest-eu-2",
+        "price": 530
+      }
+    ]
+  },
+  {
+    "id": "dish-zhent",
+    "slug": "zhent",
+    "name": "Zhent",
+    "cuisine": "kyrgyz",
+    "image": "https://placehold.co/800x600/jpg?text=Zhent",
+    "shortDescription": "Zhent — signature kyrgyz dish.",
+    "description": "Zhent is a popular kyrgyz cuisine dish showcased in this demo. Prepared with local ingredients.",
+    "ingredients": [
+      "говядина",
+      "лук",
+      "специи"
+    ],
+    "places": [
+      {
+        "restaurantId": "rest-kg-2",
+        "price": 460
+      }
+    ]
+  },
+  {
+    "id": "dish-koktal",
+    "slug": "koktal",
+    "name": "Koktal",
+    "cuisine": "kyrgyz",
+    "image": "https://placehold.co/800x600/jpg?text=Koktal",
+    "shortDescription": "Koktal — signature kyrgyz dish.",
+    "description": "Koktal is a popular kyrgyz cuisine dish showcased in this demo. Prepared with local ingredients.",
+    "ingredients": [
+      "говядина",
+      "специи",
+      "лапша"
+    ],
+    "places": [
+      {
+        "restaurantId": "rest-kg-4",
+        "price": 650
+      },
+      {
+        "restaurantId": "rest-kg-1",
+        "price": 280
+      },
+      {
+        "restaurantId": "rest-kg-2",
+        "price": 390
+      }
+    ]
+  },
+  {
+    "id": "dish-lagman",
+    "slug": "lagman",
+    "name": "Lagman",
+    "cuisine": "uyghur",
+    "image": "https://placehold.co/800x600/jpg?text=Lagman",
+    "shortDescription": "Lagman — signature uyghur dish.",
+    "description": "Lagman is a popular uyghur cuisine dish showcased in this demo. Prepared with local ingredients.",
+    "ingredients": [
+      "лук",
+      "лапша",
+      "перец"
+    ],
+    "places": [
+      {
+        "restaurantId": "rest-ud-4",
+        "price": 420
+      }
+    ]
+  },
+  {
+    "id": "dish-dapanji--big-plate-chicken-",
+    "slug": "dapanji--big-plate-chicken-",
+    "name": "Dapanji (Big Plate Chicken)",
+    "cuisine": "uyghur",
+    "image": "https://placehold.co/800x600/jpg?text=Dapanji+%28Big+Plate+Chicken%29",
+    "shortDescription": "Dapanji (Big Plate Chicken) — signature uyghur dish.",
+    "description": "Dapanji (Big Plate Chicken) is a popular uyghur cuisine dish showcased in this demo. Prepared with local ingredients.",
+    "ingredients": [
+      "лапша",
+      "перец",
+      "говядина"
+    ],
+    "places": [
+      {
+        "restaurantId": "rest-ud-8",
+        "price": 510
+      },
+      {
+        "restaurantId": "rest-ud-2",
+        "price": 370
+      },
+      {
+        "restaurantId": "rest-ud-4",
+        "price": 310
+      }
+    ]
+  },
+  {
+    "id": "dish-uyghur-polo--pilaf-",
+    "slug": "uyghur-polo--pilaf-",
+    "name": "Uyghur Polo (Pilaf)",
+    "cuisine": "uyghur",
+    "image": "https://placehold.co/800x600/jpg?text=Uyghur+Polo+%28Pilaf%29",
+    "shortDescription": "Uyghur Polo (Pilaf) — signature uyghur dish.",
+    "description": "Uyghur Polo (Pilaf) is a popular uyghur cuisine dish showcased in this demo. Prepared with local ingredients.",
+    "ingredients": [
+      "лапша",
+      "лук",
+      "говядина"
+    ],
+    "places": [
+      {
+        "restaurantId": "rest-ud-7",
+        "price": 540
+      },
+      {
+        "restaurantId": "rest-ud-4",
+        "price": 280
+      }
+    ]
+  },
+  {
+    "id": "dish-samsa-uyghur",
+    "slug": "samsa-uyghur",
+    "name": "Samsa Uyghur",
+    "cuisine": "uyghur",
+    "image": "https://placehold.co/800x600/jpg?text=Samsa+Uyghur",
+    "shortDescription": "Samsa Uyghur — signature uyghur dish.",
+    "description": "Samsa Uyghur is a popular uyghur cuisine dish showcased in this demo. Prepared with local ingredients.",
+    "ingredients": [
+      "лук",
+      "лапша",
+      "говядина"
+    ],
+    "places": [
+      {
+        "restaurantId": "rest-ud-6",
+        "price": 400
+      },
+      {
+        "restaurantId": "rest-ud-7",
+        "price": 370
+      },
+      {
+        "restaurantId": "rest-ud-1",
+        "price": 370
+      }
+    ]
+  },
+  {
+    "id": "dish-kawap--kebabs-",
+    "slug": "kawap--kebabs-",
+    "name": "Kawap (Kebabs)",
+    "cuisine": "uyghur",
+    "image": "https://placehold.co/800x600/jpg?text=Kawap+%28Kebabs%29",
+    "shortDescription": "Kawap (Kebabs) — signature uyghur dish.",
+    "description": "Kawap (Kebabs) is a popular uyghur cuisine dish showcased in this demo. Prepared with local ingredients.",
+    "ingredients": [
+      "говядина",
+      "лапша",
+      "лук"
+    ],
+    "places": [
+      {
+        "restaurantId": "rest-ud-5",
+        "price": 540
+      }
+    ]
+  },
+  {
+    "id": "dish-nan-bread",
+    "slug": "nan-bread",
+    "name": "Nan Bread",
+    "cuisine": "uyghur",
+    "image": "https://placehold.co/800x600/jpg?text=Nan+Bread",
+    "shortDescription": "Nan Bread — signature uyghur dish.",
+    "description": "Nan Bread is a popular uyghur cuisine dish showcased in this demo. Prepared with local ingredients.",
+    "ingredients": [
+      "говядина",
+      "лапша",
+      "лук"
+    ],
+    "places": [
+      {
+        "restaurantId": "rest-ud-2",
+        "price": 590
+      },
+      {
+        "restaurantId": "rest-ud-1",
+        "price": 250
+      },
+      {
+        "restaurantId": "rest-ud-6",
+        "price": 300
+      }
+    ]
+  },
+  {
+    "id": "dish-chuchura",
+    "slug": "chuchura",
+    "name": "Chuchura",
+    "cuisine": "uyghur",
+    "image": "https://placehold.co/800x600/jpg?text=Chuchura",
+    "shortDescription": "Chuchura — signature uyghur dish.",
+    "description": "Chuchura is a popular uyghur cuisine dish showcased in this demo. Prepared with local ingredients.",
+    "ingredients": [
+      "говядина",
+      "лук",
+      "лапша"
+    ],
+    "places": [
+      {
+        "restaurantId": "rest-ud-8",
+        "price": 500
+      },
+      {
+        "restaurantId": "rest-ud-2",
+        "price": 280
+      }
+    ]
+  },
+  {
+    "id": "dish-leghmen-soup",
+    "slug": "leghmen-soup",
+    "name": "Leghmen Soup",
+    "cuisine": "uyghur",
+    "image": "https://placehold.co/800x600/jpg?text=Leghmen+Soup",
+    "shortDescription": "Leghmen Soup — signature uyghur dish.",
+    "description": "Leghmen Soup is a popular uyghur cuisine dish showcased in this demo. Prepared with local ingredients.",
+    "ingredients": [
+      "лук",
+      "перец",
+      "говядина"
+    ],
+    "places": [
+      {
+        "restaurantId": "rest-ud-5",
+        "price": 540
+      },
+      {
+        "restaurantId": "rest-ud-7",
+        "price": 430
+      }
+    ]
+  },
+  {
+    "id": "dish-polu-with-raisins",
+    "slug": "polu-with-raisins",
+    "name": "Polu with Raisins",
+    "cuisine": "uyghur",
+    "image": "https://placehold.co/800x600/jpg?text=Polu+with+Raisins",
+    "shortDescription": "Polu with Raisins — signature uyghur dish.",
+    "description": "Polu with Raisins is a popular uyghur cuisine dish showcased in this demo. Prepared with local ingredients.",
+    "ingredients": [
+      "говядина",
+      "лапша",
+      "перец"
+    ],
+    "places": [
+      {
+        "restaurantId": "rest-ud-4",
+        "price": 430
+      }
+    ]
+  },
+  {
+    "id": "dish-kazan-kebap",
+    "slug": "kazan-kebap",
+    "name": "Kazan Kebap",
+    "cuisine": "uyghur",
+    "image": "https://placehold.co/800x600/jpg?text=Kazan+Kebap",
+    "shortDescription": "Kazan Kebap — signature uyghur dish.",
+    "description": "Kazan Kebap is a popular uyghur cuisine dish showcased in this demo. Prepared with local ingredients.",
+    "ingredients": [
+      "говядина",
+      "лапша",
+      "перец"
+    ],
+    "places": [
+      {
+        "restaurantId": "rest-ud-6",
+        "price": 620
+      },
+      {
+        "restaurantId": "rest-ud-1",
+        "price": 550
+      },
+      {
+        "restaurantId": "rest-ud-7",
+        "price": 570
+      }
+    ]
+  },
+  {
+    "id": "dish-uyghur-manti",
+    "slug": "uyghur-manti",
+    "name": "Uyghur Manti",
+    "cuisine": "uyghur",
+    "image": "https://placehold.co/800x600/jpg?text=Uyghur+Manti",
+    "shortDescription": "Uyghur Manti — signature uyghur dish.",
+    "description": "Uyghur Manti is a popular uyghur cuisine dish showcased in this demo. Prepared with local ingredients.",
+    "ingredients": [
+      "лапша",
+      "перец",
+      "лук"
+    ],
+    "places": [
+      {
+        "restaurantId": "rest-ud-2",
+        "price": 630
+      }
+    ]
+  },
+  {
+    "id": "dish-sumalak",
+    "slug": "sumalak",
+    "name": "Sumalak",
+    "cuisine": "uyghur",
+    "image": "https://placehold.co/800x600/jpg?text=Sumalak",
+    "shortDescription": "Sumalak — signature uyghur dish.",
+    "description": "Sumalak is a popular uyghur cuisine dish showcased in this demo. Prepared with local ingredients.",
+    "ingredients": [
+      "лапша",
+      "перец",
+      "лук"
+    ],
+    "places": [
+      {
+        "restaurantId": "rest-ud-2",
+        "price": 400
+      },
+      {
+        "restaurantId": "rest-ud-5",
+        "price": 620
+      }
+    ]
+  },
+  {
+    "id": "dish-narinch",
+    "slug": "narinch",
+    "name": "Narinch",
+    "cuisine": "uyghur",
+    "image": "https://placehold.co/800x600/jpg?text=Narinch",
+    "shortDescription": "Narinch — signature uyghur dish.",
+    "description": "Narinch is a popular uyghur cuisine dish showcased in this demo. Prepared with local ingredients.",
+    "ingredients": [
+      "перец",
+      "лапша",
+      "говядина"
+    ],
+    "places": [
+      {
+        "restaurantId": "rest-ud-6",
+        "price": 380
+      },
+      {
+        "restaurantId": "rest-ud-3",
+        "price": 670
+      }
+    ]
+  },
+  {
+    "id": "dish-youtazi",
+    "slug": "youtazi",
+    "name": "Youtazi",
+    "cuisine": "uyghur",
+    "image": "https://placehold.co/800x600/jpg?text=Youtazi",
+    "shortDescription": "Youtazi — signature uyghur dish.",
+    "description": "Youtazi is a popular uyghur cuisine dish showcased in this demo. Prepared with local ingredients.",
+    "ingredients": [
+      "лук",
+      "говядина",
+      "лапша"
+    ],
+    "places": [
+      {
+        "restaurantId": "rest-ud-3",
+        "price": 660
+      },
+      {
+        "restaurantId": "rest-ud-6",
+        "price": 440
+      }
+    ]
+  },
+  {
+    "id": "dish-laghman-dry",
+    "slug": "laghman-dry",
+    "name": "Laghman Dry",
+    "cuisine": "uyghur",
+    "image": "https://placehold.co/800x600/jpg?text=Laghman+Dry",
+    "shortDescription": "Laghman Dry — signature uyghur dish.",
+    "description": "Laghman Dry is a popular uyghur cuisine dish showcased in this demo. Prepared with local ingredients.",
+    "ingredients": [
+      "лапша",
+      "лук",
+      "перец"
+    ],
+    "places": [
+      {
+        "restaurantId": "rest-ud-8",
+        "price": 640
+      }
+    ]
+  },
+  {
+    "id": "dish-fried-lagman",
+    "slug": "fried-lagman",
+    "name": "Fried Lagman",
+    "cuisine": "uyghur",
+    "image": "https://placehold.co/800x600/jpg?text=Fried+Lagman",
+    "shortDescription": "Fried Lagman — signature uyghur dish.",
+    "description": "Fried Lagman is a popular uyghur cuisine dish showcased in this demo. Prepared with local ingredients.",
+    "ingredients": [
+      "перец",
+      "лапша",
+      "говядина"
+    ],
+    "places": [
+      {
+        "restaurantId": "rest-ud-5",
+        "price": 290
+      },
+      {
+        "restaurantId": "rest-ud-2",
+        "price": 400
+      },
+      {
+        "restaurantId": "rest-ud-3",
+        "price": 480
+      }
+    ]
+  },
+  {
+    "id": "dish-uyghur-cold-noodles",
+    "slug": "uyghur-cold-noodles",
+    "name": "Uyghur Cold Noodles",
+    "cuisine": "uyghur",
+    "image": "https://placehold.co/800x600/jpg?text=Uyghur+Cold+Noodles",
+    "shortDescription": "Uyghur Cold Noodles — signature uyghur dish.",
+    "description": "Uyghur Cold Noodles is a popular uyghur cuisine dish showcased in this demo. Prepared with local ingredients.",
+    "ingredients": [
+      "перец",
+      "лук",
+      "лапша"
+    ],
+    "places": [
+      {
+        "restaurantId": "rest-ud-5",
+        "price": 580
+      },
+      {
+        "restaurantId": "rest-ud-8",
+        "price": 250
+      },
+      {
+        "restaurantId": "rest-ud-6",
+        "price": 670
+      }
+    ]
+  },
+  {
+    "id": "dish-ayran-soup",
+    "slug": "ayran-soup",
+    "name": "Ayran Soup",
+    "cuisine": "uyghur",
+    "image": "https://placehold.co/800x600/jpg?text=Ayran+Soup",
+    "shortDescription": "Ayran Soup — signature uyghur dish.",
+    "description": "Ayran Soup is a popular uyghur cuisine dish showcased in this demo. Prepared with local ingredients.",
+    "ingredients": [
+      "лапша",
+      "перец",
+      "лук"
+    ],
+    "places": [
+      {
+        "restaurantId": "rest-ud-5",
+        "price": 320
+      }
+    ]
+  },
+  {
+    "id": "dish-kazan-soup",
+    "slug": "kazan-soup",
+    "name": "Kazan Soup",
+    "cuisine": "uyghur",
+    "image": "https://placehold.co/800x600/jpg?text=Kazan+Soup",
+    "shortDescription": "Kazan Soup — signature uyghur dish.",
+    "description": "Kazan Soup is a popular uyghur cuisine dish showcased in this demo. Prepared with local ingredients.",
+    "ingredients": [
+      "говядина",
+      "перец",
+      "лук"
+    ],
+    "places": [
+      {
+        "restaurantId": "rest-ud-5",
+        "price": 380
+      },
+      {
+        "restaurantId": "rest-ud-8",
+        "price": 460
+      }
+    ]
+  },
+  {
+    "id": "dish-uyghur-meat-pie",
+    "slug": "uyghur-meat-pie",
+    "name": "Uyghur Meat Pie",
+    "cuisine": "uyghur",
+    "image": "https://placehold.co/800x600/jpg?text=Uyghur+Meat+Pie",
+    "shortDescription": "Uyghur Meat Pie — signature uyghur dish.",
+    "description": "Uyghur Meat Pie is a popular uyghur cuisine dish showcased in this demo. Prepared with local ingredients.",
+    "ingredients": [
+      "перец",
+      "лапша",
+      "лук"
+    ],
+    "places": [
+      {
+        "restaurantId": "rest-ud-8",
+        "price": 300
+      },
+      {
+        "restaurantId": "rest-ud-3",
+        "price": 650
+      },
+      {
+        "restaurantId": "rest-ud-1",
+        "price": 520
+      }
+    ]
+  },
+  {
+    "id": "dish-nang-with-sesame",
+    "slug": "nang-with-sesame",
+    "name": "Nang with Sesame",
+    "cuisine": "uyghur",
+    "image": "https://placehold.co/800x600/jpg?text=Nang+with+Sesame",
+    "shortDescription": "Nang with Sesame — signature uyghur dish.",
+    "description": "Nang with Sesame is a popular uyghur cuisine dish showcased in this demo. Prepared with local ingredients.",
+    "ingredients": [
+      "лук",
+      "перец",
+      "говядина"
+    ],
+    "places": [
+      {
+        "restaurantId": "rest-ud-3",
+        "price": 410
+      },
+      {
+        "restaurantId": "rest-ud-6",
+        "price": 350
+      }
+    ]
+  },
+  {
+    "id": "dish-hand-pulled-noodles",
+    "slug": "hand-pulled-noodles",
+    "name": "Hand-Pulled Noodles",
+    "cuisine": "uyghur",
+    "image": "https://placehold.co/800x600/jpg?text=Hand-Pulled+Noodles",
+    "shortDescription": "Hand-Pulled Noodles — signature uyghur dish.",
+    "description": "Hand-Pulled Noodles is a popular uyghur cuisine dish showcased in this demo. Prepared with local ingredients.",
+    "ingredients": [
+      "лапша",
+      "говядина",
+      "лук"
+    ],
+    "places": [
+      {
+        "restaurantId": "rest-ud-1",
+        "price": 690
+      },
+      {
+        "restaurantId": "rest-ud-8",
+        "price": 340
+      },
+      {
+        "restaurantId": "rest-ud-7",
+        "price": 590
+      }
+    ]
+  },
+  {
+    "id": "dish-shorpa-uyghur",
+    "slug": "shorpa-uyghur",
+    "name": "Shorpa Uyghur",
+    "cuisine": "uyghur",
+    "image": "https://placehold.co/800x600/jpg?text=Shorpa+Uyghur",
+    "shortDescription": "Shorpa Uyghur — signature uyghur dish.",
+    "description": "Shorpa Uyghur is a popular uyghur cuisine dish showcased in this demo. Prepared with local ingredients.",
+    "ingredients": [
+      "лапша",
+      "говядина",
+      "лук"
+    ],
+    "places": [
+      {
+        "restaurantId": "rest-ud-3",
+        "price": 440
+      },
+      {
+        "restaurantId": "rest-ud-1",
+        "price": 480
+      }
+    ]
+  },
+  {
+    "id": "dish-uyghur-stew",
+    "slug": "uyghur-stew",
+    "name": "Uyghur Stew",
+    "cuisine": "uyghur",
+    "image": "https://placehold.co/800x600/jpg?text=Uyghur+Stew",
+    "shortDescription": "Uyghur Stew — signature uyghur dish.",
+    "description": "Uyghur Stew is a popular uyghur cuisine dish showcased in this demo. Prepared with local ingredients.",
+    "ingredients": [
+      "говядина",
+      "лапша",
+      "перец"
+    ],
+    "places": [
+      {
+        "restaurantId": "rest-ud-4",
+        "price": 470
+      },
+      {
+        "restaurantId": "rest-ud-6",
+        "price": 600
+      },
+      {
+        "restaurantId": "rest-ud-1",
+        "price": 510
+      }
+    ]
+  },
+  {
+    "id": "dish-hot-pepper-lagman",
+    "slug": "hot-pepper-lagman",
+    "name": "Hot Pepper Lagman",
+    "cuisine": "uyghur",
+    "image": "https://placehold.co/800x600/jpg?text=Hot+Pepper+Lagman",
+    "shortDescription": "Hot Pepper Lagman — signature uyghur dish.",
+    "description": "Hot Pepper Lagman is a popular uyghur cuisine dish showcased in this demo. Prepared with local ingredients.",
+    "ingredients": [
+      "говядина",
+      "перец",
+      "лук"
+    ],
+    "places": [
+      {
+        "restaurantId": "rest-ud-7",
+        "price": 260
+      }
+    ]
+  },
+  {
+    "id": "dish-ashlyan-fu",
+    "slug": "ashlyan-fu",
+    "name": "Ashlyan-Fu",
+    "cuisine": "dungan",
+    "image": "https://placehold.co/800x600/jpg?text=Ashlyan-Fu",
+    "shortDescription": "Ashlyan-Fu — signature dungan dish.",
+    "description": "Ashlyan-Fu is a popular dungan cuisine dish showcased in this demo. Prepared with local ingredients.",
+    "ingredients": [
+      "лапша",
+      "чеснок",
+      "перец"
+    ],
+    "places": [
+      {
+        "restaurantId": "rest-ud-4",
+        "price": 350
+      },
+      {
+        "restaurantId": "rest-ud-3",
+        "price": 690
+      }
+    ]
+  },
+  {
+    "id": "dish-dungan-noodles",
+    "slug": "dungan-noodles",
+    "name": "Dungan Noodles",
+    "cuisine": "dungan",
+    "image": "https://placehold.co/800x600/jpg?text=Dungan+Noodles",
+    "shortDescription": "Dungan Noodles — signature dungan dish.",
+    "description": "Dungan Noodles is a popular dungan cuisine dish showcased in this demo. Prepared with local ingredients.",
+    "ingredients": [
+      "зелень",
+      "лапша",
+      "перец"
+    ],
+    "places": [
+      {
+        "restaurantId": "rest-ud-4",
+        "price": 540
+      },
+      {
+        "restaurantId": "rest-ud-2",
+        "price": 470
+      }
+    ]
+  },
+  {
+    "id": "dish-dungan-salad",
+    "slug": "dungan-salad",
+    "name": "Dungan Salad",
+    "cuisine": "dungan",
+    "image": "https://placehold.co/800x600/jpg?text=Dungan+Salad",
+    "shortDescription": "Dungan Salad — signature dungan dish.",
+    "description": "Dungan Salad is a popular dungan cuisine dish showcased in this demo. Prepared with local ingredients.",
+    "ingredients": [
+      "зелень",
+      "чеснок",
+      "лапша"
+    ],
+    "places": [
+      {
+        "restaurantId": "rest-ud-4",
+        "price": 500
+      }
+    ]
+  },
+  {
+    "id": "dish-cold-spicy-noodles",
+    "slug": "cold-spicy-noodles",
+    "name": "Cold Spicy Noodles",
+    "cuisine": "dungan",
+    "image": "https://placehold.co/800x600/jpg?text=Cold+Spicy+Noodles",
+    "shortDescription": "Cold Spicy Noodles — signature dungan dish.",
+    "description": "Cold Spicy Noodles is a popular dungan cuisine dish showcased in this demo. Prepared with local ingredients.",
+    "ingredients": [
+      "зелень",
+      "лапша",
+      "перец"
+    ],
+    "places": [
+      {
+        "restaurantId": "rest-ud-6",
+        "price": 570
+      },
+      {
+        "restaurantId": "rest-ud-8",
+        "price": 500
+      }
+    ]
+  },
+  {
+    "id": "dish-dungan-dumplings",
+    "slug": "dungan-dumplings",
+    "name": "Dungan Dumplings",
+    "cuisine": "dungan",
+    "image": "https://placehold.co/800x600/jpg?text=Dungan+Dumplings",
+    "shortDescription": "Dungan Dumplings — signature dungan dish.",
+    "description": "Dungan Dumplings is a popular dungan cuisine dish showcased in this demo. Prepared with local ingredients.",
+    "ingredients": [
+      "лапша",
+      "зелень",
+      "чеснок"
+    ],
+    "places": [
+      {
+        "restaurantId": "rest-ud-3",
+        "price": 410
+      },
+      {
+        "restaurantId": "rest-ud-5",
+        "price": 270
+      }
+    ]
+  },
+  {
+    "id": "dish-rice-with-vegetables",
+    "slug": "rice-with-vegetables",
+    "name": "Rice with Vegetables",
+    "cuisine": "dungan",
+    "image": "https://placehold.co/800x600/jpg?text=Rice+with+Vegetables",
+    "shortDescription": "Rice with Vegetables — signature dungan dish.",
+    "description": "Rice with Vegetables is a popular dungan cuisine dish showcased in this demo. Prepared with local ingredients.",
+    "ingredients": [
+      "лапша",
+      "чеснок",
+      "перец"
+    ],
+    "places": [
+      {
+        "restaurantId": "rest-ud-6",
+        "price": 630
+      },
+      {
+        "restaurantId": "rest-ud-4",
+        "price": 570
+      }
+    ]
+  },
+  {
+    "id": "dish-spicy-beef-noodles",
+    "slug": "spicy-beef-noodles",
+    "name": "Spicy Beef Noodles",
+    "cuisine": "dungan",
+    "image": "https://placehold.co/800x600/jpg?text=Spicy+Beef+Noodles",
+    "shortDescription": "Spicy Beef Noodles — signature dungan dish.",
+    "description": "Spicy Beef Noodles is a popular dungan cuisine dish showcased in this demo. Prepared with local ingredients.",
+    "ingredients": [
+      "чеснок",
+      "перец",
+      "зелень"
+    ],
+    "places": [
+      {
+        "restaurantId": "rest-ud-1",
+        "price": 520
+      },
+      {
+        "restaurantId": "rest-ud-6",
+        "price": 250
+      }
+    ]
+  },
+  {
+    "id": "dish-garlic-pork",
+    "slug": "garlic-pork",
+    "name": "Garlic Pork",
+    "cuisine": "dungan",
+    "image": "https://placehold.co/800x600/jpg?text=Garlic+Pork",
+    "shortDescription": "Garlic Pork — signature dungan dish.",
+    "description": "Garlic Pork is a popular dungan cuisine dish showcased in this demo. Prepared with local ingredients.",
+    "ingredients": [
+      "зелень",
+      "перец",
+      "лапша"
+    ],
+    "places": [
+      {
+        "restaurantId": "rest-ud-6",
+        "price": 640
+      }
+    ]
+  },
+  {
+    "id": "dish-dungan-soup",
+    "slug": "dungan-soup",
+    "name": "Dungan Soup",
+    "cuisine": "dungan",
+    "image": "https://placehold.co/800x600/jpg?text=Dungan+Soup",
+    "shortDescription": "Dungan Soup — signature dungan dish.",
+    "description": "Dungan Soup is a popular dungan cuisine dish showcased in this demo. Prepared with local ingredients.",
+    "ingredients": [
+      "перец",
+      "зелень",
+      "чеснок"
+    ],
+    "places": [
+      {
+        "restaurantId": "rest-ud-5",
+        "price": 670
+      },
+      {
+        "restaurantId": "rest-ud-8",
+        "price": 510
+      },
+      {
+        "restaurantId": "rest-ud-3",
+        "price": 450
+      }
+    ]
+  },
+  {
+    "id": "dish-chili-tofu",
+    "slug": "chili-tofu",
+    "name": "Chili Tofu",
+    "cuisine": "dungan",
+    "image": "https://placehold.co/800x600/jpg?text=Chili+Tofu",
+    "shortDescription": "Chili Tofu — signature dungan dish.",
+    "description": "Chili Tofu is a popular dungan cuisine dish showcased in this demo. Prepared with local ingredients.",
+    "ingredients": [
+      "чеснок",
+      "зелень",
+      "перец"
+    ],
+    "places": [
+      {
+        "restaurantId": "rest-ud-3",
+        "price": 670
+      },
+      {
+        "restaurantId": "rest-ud-2",
+        "price": 490
+      },
+      {
+        "restaurantId": "rest-ud-4",
+        "price": 680
+      }
+    ]
+  },
+  {
+    "id": "dish-chili-potato",
+    "slug": "chili-potato",
+    "name": "Chili Potato",
+    "cuisine": "dungan",
+    "image": "https://placehold.co/800x600/jpg?text=Chili+Potato",
+    "shortDescription": "Chili Potato — signature dungan dish.",
+    "description": "Chili Potato is a popular dungan cuisine dish showcased in this demo. Prepared with local ingredients.",
+    "ingredients": [
+      "перец",
+      "зелень",
+      "чеснок"
+    ],
+    "places": [
+      {
+        "restaurantId": "rest-ud-1",
+        "price": 430
+      },
+      {
+        "restaurantId": "rest-ud-3",
+        "price": 380
+      }
+    ]
+  },
+  {
+    "id": "dish-pickled-vegetables",
+    "slug": "pickled-vegetables",
+    "name": "Pickled Vegetables",
+    "cuisine": "dungan",
+    "image": "https://placehold.co/800x600/jpg?text=Pickled+Vegetables",
+    "shortDescription": "Pickled Vegetables — signature dungan dish.",
+    "description": "Pickled Vegetables is a popular dungan cuisine dish showcased in this demo. Prepared with local ingredients.",
+    "ingredients": [
+      "перец",
+      "зелень",
+      "лапша"
+    ],
+    "places": [
+      {
+        "restaurantId": "rest-ud-8",
+        "price": 680
+      },
+      {
+        "restaurantId": "rest-ud-4",
+        "price": 380
+      }
+    ]
+  },
+  {
+    "id": "dish-sour-spicy-soup",
+    "slug": "sour-spicy-soup",
+    "name": "Sour Spicy Soup",
+    "cuisine": "dungan",
+    "image": "https://placehold.co/800x600/jpg?text=Sour+Spicy+Soup",
+    "shortDescription": "Sour Spicy Soup — signature dungan dish.",
+    "description": "Sour Spicy Soup is a popular dungan cuisine dish showcased in this demo. Prepared with local ingredients.",
+    "ingredients": [
+      "зелень",
+      "лапша",
+      "перец"
+    ],
+    "places": [
+      {
+        "restaurantId": "rest-ud-2",
+        "price": 670
+      },
+      {
+        "restaurantId": "rest-ud-3",
+        "price": 650
+      },
+      {
+        "restaurantId": "rest-ud-5",
+        "price": 640
+      }
+    ]
+  },
+  {
+    "id": "dish-dungan-pilaf",
+    "slug": "dungan-pilaf",
+    "name": "Dungan Pilaf",
+    "cuisine": "dungan",
+    "image": "https://placehold.co/800x600/jpg?text=Dungan+Pilaf",
+    "shortDescription": "Dungan Pilaf — signature dungan dish.",
+    "description": "Dungan Pilaf is a popular dungan cuisine dish showcased in this demo. Prepared with local ingredients.",
+    "ingredients": [
+      "чеснок",
+      "перец",
+      "лапша"
+    ],
+    "places": [
+      {
+        "restaurantId": "rest-ud-5",
+        "price": 340
+      },
+      {
+        "restaurantId": "rest-ud-2",
+        "price": 260
+      },
+      {
+        "restaurantId": "rest-ud-7",
+        "price": 270
+      }
+    ]
+  },
+  {
+    "id": "dish-stir-fry-noodles",
+    "slug": "stir-fry-noodles",
+    "name": "Stir-Fry Noodles",
+    "cuisine": "dungan",
+    "image": "https://placehold.co/800x600/jpg?text=Stir-Fry+Noodles",
+    "shortDescription": "Stir-Fry Noodles — signature dungan dish.",
+    "description": "Stir-Fry Noodles is a popular dungan cuisine dish showcased in this demo. Prepared with local ingredients.",
+    "ingredients": [
+      "перец",
+      "чеснок",
+      "зелень"
+    ],
+    "places": [
+      {
+        "restaurantId": "rest-ud-7",
+        "price": 610
+      },
+      {
+        "restaurantId": "rest-ud-6",
+        "price": 370
+      }
+    ]
+  },
+  {
+    "id": "dish-dungan-wonton",
+    "slug": "dungan-wonton",
+    "name": "Dungan Wonton",
+    "cuisine": "dungan",
+    "image": "https://placehold.co/800x600/jpg?text=Dungan+Wonton",
+    "shortDescription": "Dungan Wonton — signature dungan dish.",
+    "description": "Dungan Wonton is a popular dungan cuisine dish showcased in this demo. Prepared with local ingredients.",
+    "ingredients": [
+      "лапша",
+      "перец",
+      "чеснок"
+    ],
+    "places": [
+      {
+        "restaurantId": "rest-ud-3",
+        "price": 660
+      }
+    ]
+  },
+  {
+    "id": "dish-soybean-noodles",
+    "slug": "soybean-noodles",
+    "name": "Soybean Noodles",
+    "cuisine": "dungan",
+    "image": "https://placehold.co/800x600/jpg?text=Soybean+Noodles",
+    "shortDescription": "Soybean Noodles — signature dungan dish.",
+    "description": "Soybean Noodles is a popular dungan cuisine dish showcased in this demo. Prepared with local ingredients.",
+    "ingredients": [
+      "перец",
+      "лапша",
+      "зелень"
+    ],
+    "places": [
+      {
+        "restaurantId": "rest-ud-3",
+        "price": 690
+      }
+    ]
+  },
+  {
+    "id": "dish-sesame-noodles",
+    "slug": "sesame-noodles",
+    "name": "Sesame Noodles",
+    "cuisine": "dungan",
+    "image": "https://placehold.co/800x600/jpg?text=Sesame+Noodles",
+    "shortDescription": "Sesame Noodles — signature dungan dish.",
+    "description": "Sesame Noodles is a popular dungan cuisine dish showcased in this demo. Prepared with local ingredients.",
+    "ingredients": [
+      "перец",
+      "зелень",
+      "чеснок"
+    ],
+    "places": [
+      {
+        "restaurantId": "rest-ud-8",
+        "price": 330
+      }
+    ]
+  },
+  {
+    "id": "dish-cucumber-salad",
+    "slug": "cucumber-salad",
+    "name": "Cucumber Salad",
+    "cuisine": "dungan",
+    "image": "https://placehold.co/800x600/jpg?text=Cucumber+Salad",
+    "shortDescription": "Cucumber Salad — signature dungan dish.",
+    "description": "Cucumber Salad is a popular dungan cuisine dish showcased in this demo. Prepared with local ingredients.",
+    "ingredients": [
+      "чеснок",
+      "зелень",
+      "перец"
+    ],
+    "places": [
+      {
+        "restaurantId": "rest-ud-7",
+        "price": 600
+      },
+      {
+        "restaurantId": "rest-ud-8",
+        "price": 530
+      }
+    ]
+  },
+  {
+    "id": "dish-spicy-eggplant",
+    "slug": "spicy-eggplant",
+    "name": "Spicy Eggplant",
+    "cuisine": "dungan",
+    "image": "https://placehold.co/800x600/jpg?text=Spicy+Eggplant",
+    "shortDescription": "Spicy Eggplant — signature dungan dish.",
+    "description": "Spicy Eggplant is a popular dungan cuisine dish showcased in this demo. Prepared with local ingredients.",
+    "ingredients": [
+      "зелень",
+      "перец",
+      "чеснок"
+    ],
+    "places": [
+      {
+        "restaurantId": "rest-ud-5",
+        "price": 400
+      },
+      {
+        "restaurantId": "rest-ud-7",
+        "price": 650
+      }
+    ]
+  },
+  {
+    "id": "dish-chicken-with-peppers",
+    "slug": "chicken-with-peppers",
+    "name": "Chicken with Peppers",
+    "cuisine": "dungan",
+    "image": "https://placehold.co/800x600/jpg?text=Chicken+with+Peppers",
+    "shortDescription": "Chicken with Peppers — signature dungan dish.",
+    "description": "Chicken with Peppers is a popular dungan cuisine dish showcased in this demo. Prepared with local ingredients.",
+    "ingredients": [
+      "зелень",
+      "чеснок",
+      "перец"
+    ],
+    "places": [
+      {
+        "restaurantId": "rest-ud-4",
+        "price": 290
+      },
+      {
+        "restaurantId": "rest-ud-3",
+        "price": 430
+      },
+      {
+        "restaurantId": "rest-ud-8",
+        "price": 400
+      }
+    ]
+  },
+  {
+    "id": "dish-tomato-noodles",
+    "slug": "tomato-noodles",
+    "name": "Tomato Noodles",
+    "cuisine": "dungan",
+    "image": "https://placehold.co/800x600/jpg?text=Tomato+Noodles",
+    "shortDescription": "Tomato Noodles — signature dungan dish.",
+    "description": "Tomato Noodles is a popular dungan cuisine dish showcased in this demo. Prepared with local ingredients.",
+    "ingredients": [
+      "чеснок",
+      "зелень",
+      "лапша"
+    ],
+    "places": [
+      {
+        "restaurantId": "rest-ud-2",
+        "price": 390
+      },
+      {
+        "restaurantId": "rest-ud-8",
+        "price": 490
+      },
+      {
+        "restaurantId": "rest-ud-7",
+        "price": 690
+      }
+    ]
+  },
+  {
+    "id": "dish-cabbage-stir-fry",
+    "slug": "cabbage-stir-fry",
+    "name": "Cabbage Stir-Fry",
+    "cuisine": "dungan",
+    "image": "https://placehold.co/800x600/jpg?text=Cabbage+Stir-Fry",
+    "shortDescription": "Cabbage Stir-Fry — signature dungan dish.",
+    "description": "Cabbage Stir-Fry is a popular dungan cuisine dish showcased in this demo. Prepared with local ingredients.",
+    "ingredients": [
+      "зелень",
+      "перец",
+      "чеснок"
+    ],
+    "places": [
+      {
+        "restaurantId": "rest-ud-7",
+        "price": 510
+      }
+    ]
+  },
+  {
+    "id": "dish-spicy-lamb",
+    "slug": "spicy-lamb",
+    "name": "Spicy Lamb",
+    "cuisine": "dungan",
+    "image": "https://placehold.co/800x600/jpg?text=Spicy+Lamb",
+    "shortDescription": "Spicy Lamb — signature dungan dish.",
+    "description": "Spicy Lamb is a popular dungan cuisine dish showcased in this demo. Prepared with local ingredients.",
+    "ingredients": [
+      "лапша",
+      "зелень",
+      "чеснок"
+    ],
+    "places": [
+      {
+        "restaurantId": "rest-ud-1",
+        "price": 510
+      },
+      {
+        "restaurantId": "rest-ud-2",
+        "price": 490
+      }
+    ]
+  },
+  {
+    "id": "dish-mushroom-noodles",
+    "slug": "mushroom-noodles",
+    "name": "Mushroom Noodles",
+    "cuisine": "dungan",
+    "image": "https://placehold.co/800x600/jpg?text=Mushroom+Noodles",
+    "shortDescription": "Mushroom Noodles — signature dungan dish.",
+    "description": "Mushroom Noodles is a popular dungan cuisine dish showcased in this demo. Prepared with local ingredients.",
+    "ingredients": [
+      "перец",
+      "зелень",
+      "лапша"
+    ],
+    "places": [
+      {
+        "restaurantId": "rest-ud-1",
+        "price": 440
+      },
+      {
+        "restaurantId": "rest-ud-3",
+        "price": 490
+      }
+    ]
+  },
+  {
+    "id": "dish-sushi-set",
+    "slug": "sushi-set",
+    "name": "Sushi Set",
+    "cuisine": "japanese",
+    "image": "https://placehold.co/800x600/jpg?text=Sushi+Set",
+    "shortDescription": "Sushi Set — signature japanese dish.",
+    "description": "Sushi Set is a popular japanese cuisine dish showcased in this demo. Prepared with local ingredients.",
+    "ingredients": [
+      "рис",
+      "нори",
+      "лосось"
+    ],
+    "places": [
+      {
+        "restaurantId": "rest-jp-4",
+        "price": 1710
+      },
+      {
+        "restaurantId": "rest-jp-5",
+        "price": 1840
+      }
+    ]
+  },
+  {
+    "id": "dish-nigiri-salmon",
+    "slug": "nigiri-salmon",
+    "name": "Nigiri Salmon",
+    "cuisine": "japanese",
+    "image": "https://placehold.co/800x600/jpg?text=Nigiri+Salmon",
+    "shortDescription": "Nigiri Salmon — signature japanese dish.",
+    "description": "Nigiri Salmon is a popular japanese cuisine dish showcased in this demo. Prepared with local ingredients.",
+    "ingredients": [
+      "рис",
+      "нори",
+      "соевый соус"
+    ],
+    "places": [
+      {
+        "restaurantId": "rest-jp-7",
+        "price": 920
+      },
+      {
+        "restaurantId": "rest-jp-3",
+        "price": 2190
+      },
+      {
+        "restaurantId": "rest-jp-8",
+        "price": 1960
+      }
+    ]
+  },
+  {
+    "id": "dish-nigiri-tuna",
+    "slug": "nigiri-tuna",
+    "name": "Nigiri Tuna",
+    "cuisine": "japanese",
+    "image": "https://placehold.co/800x600/jpg?text=Nigiri+Tuna",
+    "shortDescription": "Nigiri Tuna — signature japanese dish.",
+    "description": "Nigiri Tuna is a popular japanese cuisine dish showcased in this demo. Prepared with local ingredients.",
+    "ingredients": [
+      "соевый соус",
+      "рис",
+      "лосось"
+    ],
+    "places": [
+      {
+        "restaurantId": "rest-jp-7",
+        "price": 940
+      }
+    ]
+  },
+  {
+    "id": "dish-california-roll",
+    "slug": "california-roll",
+    "name": "California Roll",
+    "cuisine": "japanese",
+    "image": "https://placehold.co/800x600/jpg?text=California+Roll",
+    "shortDescription": "California Roll — signature japanese dish.",
+    "description": "California Roll is a popular japanese cuisine dish showcased in this demo. Prepared with local ingredients.",
+    "ingredients": [
+      "лосось",
+      "нори",
+      "соевый соус"
+    ],
+    "places": [
+      {
+        "restaurantId": "rest-jp-7",
+        "price": 1140
+      },
+      {
+        "restaurantId": "rest-jp-6",
+        "price": 1760
+      }
+    ]
+  },
+  {
+    "id": "dish-philadelphia-roll",
+    "slug": "philadelphia-roll",
+    "name": "Philadelphia Roll",
+    "cuisine": "japanese",
+    "image": "https://placehold.co/800x600/jpg?text=Philadelphia+Roll",
+    "shortDescription": "Philadelphia Roll — signature japanese dish.",
+    "description": "Philadelphia Roll is a popular japanese cuisine dish showcased in this demo. Prepared with local ingredients.",
+    "ingredients": [
+      "рис",
+      "лосось",
+      "соевый соус"
+    ],
+    "places": [
+      {
+        "restaurantId": "rest-jp-7",
+        "price": 800
+      },
+      {
+        "restaurantId": "rest-jp-5",
+        "price": 1800
+      }
+    ]
+  },
+  {
+    "id": "dish-tempura",
+    "slug": "tempura",
+    "name": "Tempura",
+    "cuisine": "japanese",
+    "image": "https://placehold.co/800x600/jpg?text=Tempura",
+    "shortDescription": "Tempura — signature japanese dish.",
+    "description": "Tempura is a popular japanese cuisine dish showcased in this demo. Prepared with local ingredients.",
+    "ingredients": [
+      "нори",
+      "рис",
+      "лосось"
+    ],
+    "places": [
+      {
+        "restaurantId": "rest-jp-4",
+        "price": 700
+      },
+      {
+        "restaurantId": "rest-jp-2",
+        "price": 670
+      }
+    ]
+  },
+  {
+    "id": "dish-ramen-shoyu",
+    "slug": "ramen-shoyu",
+    "name": "Ramen Shoyu",
+    "cuisine": "japanese",
+    "image": "https://placehold.co/800x600/jpg?text=Ramen+Shoyu",
+    "shortDescription": "Ramen Shoyu — signature japanese dish.",
+    "description": "Ramen Shoyu is a popular japanese cuisine dish showcased in this demo. Prepared with local ingredients.",
+    "ingredients": [
+      "нори",
+      "соевый соус",
+      "лосось"
+    ],
+    "places": [
+      {
+        "restaurantId": "rest-jp-3",
+        "price": 1810
+      },
+      {
+        "restaurantId": "rest-jp-4",
+        "price": 890
+      },
+      {
+        "restaurantId": "rest-jp-10",
+        "price": 2040
+      }
+    ]
+  },
+  {
+    "id": "dish-ramen-tonkotsu",
+    "slug": "ramen-tonkotsu",
+    "name": "Ramen Tonkotsu",
+    "cuisine": "japanese",
+    "image": "https://placehold.co/800x600/jpg?text=Ramen+Tonkotsu",
+    "shortDescription": "Ramen Tonkotsu — signature japanese dish.",
+    "description": "Ramen Tonkotsu is a popular japanese cuisine dish showcased in this demo. Prepared with local ingredients.",
+    "ingredients": [
+      "рис",
+      "лосось",
+      "соевый соус"
+    ],
+    "places": [
+      {
+        "restaurantId": "rest-jp-3",
+        "price": 1010
+      },
+      {
+        "restaurantId": "rest-jp-2",
+        "price": 1390
+      }
+    ]
+  },
+  {
+    "id": "dish-miso-soup",
+    "slug": "miso-soup",
+    "name": "Miso Soup",
+    "cuisine": "japanese",
+    "image": "https://placehold.co/800x600/jpg?text=Miso+Soup",
+    "shortDescription": "Miso Soup — signature japanese dish.",
+    "description": "Miso Soup is a popular japanese cuisine dish showcased in this demo. Prepared with local ingredients.",
+    "ingredients": [
+      "рис",
+      "лосось",
+      "соевый соус"
+    ],
+    "places": [
+      {
+        "restaurantId": "rest-jp-10",
+        "price": 1610
+      },
+      {
+        "restaurantId": "rest-jp-7",
+        "price": 1100
+      }
+    ]
+  },
+  {
+    "id": "dish-udon-beef",
+    "slug": "udon-beef",
+    "name": "Udon Beef",
+    "cuisine": "japanese",
+    "image": "https://placehold.co/800x600/jpg?text=Udon+Beef",
+    "shortDescription": "Udon Beef — signature japanese dish.",
+    "description": "Udon Beef is a popular japanese cuisine dish showcased in this demo. Prepared with local ingredients.",
+    "ingredients": [
+      "рис",
+      "лосось",
+      "соевый соус"
+    ],
+    "places": [
+      {
+        "restaurantId": "rest-jp-5",
+        "price": 2130
+      }
+    ]
+  },
+  {
+    "id": "dish-yakitori",
+    "slug": "yakitori",
+    "name": "Yakitori",
+    "cuisine": "japanese",
+    "image": "https://placehold.co/800x600/jpg?text=Yakitori",
+    "shortDescription": "Yakitori — signature japanese dish.",
+    "description": "Yakitori is a popular japanese cuisine dish showcased in this demo. Prepared with local ingredients.",
+    "ingredients": [
+      "лосось",
+      "рис",
+      "нори"
+    ],
+    "places": [
+      {
+        "restaurantId": "rest-jp-9",
+        "price": 1540
+      },
+      {
+        "restaurantId": "rest-jp-7",
+        "price": 770
+      }
+    ]
+  },
+  {
+    "id": "dish-teriyaki-chicken",
+    "slug": "teriyaki-chicken",
+    "name": "Teriyaki Chicken",
+    "cuisine": "japanese",
+    "image": "https://placehold.co/800x600/jpg?text=Teriyaki+Chicken",
+    "shortDescription": "Teriyaki Chicken — signature japanese dish.",
+    "description": "Teriyaki Chicken is a popular japanese cuisine dish showcased in this demo. Prepared with local ingredients.",
+    "ingredients": [
+      "нори",
+      "соевый соус",
+      "рис"
+    ],
+    "places": [
+      {
+        "restaurantId": "rest-jp-2",
+        "price": 1520
+      },
+      {
+        "restaurantId": "rest-jp-7",
+        "price": 1770
+      }
+    ]
+  },
+  {
+    "id": "dish-katsu-curry",
+    "slug": "katsu-curry",
+    "name": "Katsu Curry",
+    "cuisine": "japanese",
+    "image": "https://placehold.co/800x600/jpg?text=Katsu+Curry",
+    "shortDescription": "Katsu Curry — signature japanese dish.",
+    "description": "Katsu Curry is a popular japanese cuisine dish showcased in this demo. Prepared with local ingredients.",
+    "ingredients": [
+      "лосось",
+      "нори",
+      "рис"
+    ],
+    "places": [
+      {
+        "restaurantId": "rest-jp-9",
+        "price": 1790
+      },
+      {
+        "restaurantId": "rest-jp-5",
+        "price": 1710
+      },
+      {
+        "restaurantId": "rest-jp-8",
+        "price": 2110
+      }
+    ]
+  },
+  {
+    "id": "dish-okonomiyaki",
+    "slug": "okonomiyaki",
+    "name": "Okonomiyaki",
+    "cuisine": "japanese",
+    "image": "https://placehold.co/800x600/jpg?text=Okonomiyaki",
+    "shortDescription": "Okonomiyaki — signature japanese dish.",
+    "description": "Okonomiyaki is a popular japanese cuisine dish showcased in this demo. Prepared with local ingredients.",
+    "ingredients": [
+      "нори",
+      "соевый соус",
+      "лосось"
+    ],
+    "places": [
+      {
+        "restaurantId": "rest-jp-5",
+        "price": 1750
+      }
+    ]
+  },
+  {
+    "id": "dish-takoyaki",
+    "slug": "takoyaki",
+    "name": "Takoyaki",
+    "cuisine": "japanese",
+    "image": "https://placehold.co/800x600/jpg?text=Takoyaki",
+    "shortDescription": "Takoyaki — signature japanese dish.",
+    "description": "Takoyaki is a popular japanese cuisine dish showcased in this demo. Prepared with local ingredients.",
+    "ingredients": [
+      "соевый соус",
+      "рис",
+      "нори"
+    ],
+    "places": [
+      {
+        "restaurantId": "rest-jp-1",
+        "price": 1430
+      },
+      {
+        "restaurantId": "rest-jp-8",
+        "price": 1060
+      }
+    ]
+  },
+  {
+    "id": "dish-sashimi-mix",
+    "slug": "sashimi-mix",
+    "name": "Sashimi Mix",
+    "cuisine": "japanese",
+    "image": "https://placehold.co/800x600/jpg?text=Sashimi+Mix",
+    "shortDescription": "Sashimi Mix — signature japanese dish.",
+    "description": "Sashimi Mix is a popular japanese cuisine dish showcased in this demo. Prepared with local ingredients.",
+    "ingredients": [
+      "рис",
+      "лосось",
+      "соевый соус"
+    ],
+    "places": [
+      {
+        "restaurantId": "rest-jp-6",
+        "price": 2120
+      },
+      {
+        "restaurantId": "rest-jp-5",
+        "price": 1300
+      }
+    ]
+  },
+  {
+    "id": "dish-gyoza",
+    "slug": "gyoza",
+    "name": "Gyoza",
+    "cuisine": "japanese",
+    "image": "https://placehold.co/800x600/jpg?text=Gyoza",
+    "shortDescription": "Gyoza — signature japanese dish.",
+    "description": "Gyoza is a popular japanese cuisine dish showcased in this demo. Prepared with local ingredients.",
+    "ingredients": [
+      "соевый соус",
+      "лосось",
+      "рис"
+    ],
+    "places": [
+      {
+        "restaurantId": "rest-jp-4",
+        "price": 1640
+      }
+    ]
+  },
+  {
+    "id": "dish-onigiri",
+    "slug": "onigiri",
+    "name": "Onigiri",
+    "cuisine": "japanese",
+    "image": "https://placehold.co/800x600/jpg?text=Onigiri",
+    "shortDescription": "Onigiri — signature japanese dish.",
+    "description": "Onigiri is a popular japanese cuisine dish showcased in this demo. Prepared with local ingredients.",
+    "ingredients": [
+      "нори",
+      "соевый соус",
+      "рис"
+    ],
+    "places": [
+      {
+        "restaurantId": "rest-jp-8",
+        "price": 640
+      },
+      {
+        "restaurantId": "rest-jp-10",
+        "price": 830
+      },
+      {
+        "restaurantId": "rest-jp-9",
+        "price": 1350
+      }
+    ]
+  },
+  {
+    "id": "dish-chirashi",
+    "slug": "chirashi",
+    "name": "Chirashi",
+    "cuisine": "japanese",
+    "image": "https://placehold.co/800x600/jpg?text=Chirashi",
+    "shortDescription": "Chirashi — signature japanese dish.",
+    "description": "Chirashi is a popular japanese cuisine dish showcased in this demo. Prepared with local ingredients.",
+    "ingredients": [
+      "лосось",
+      "нори",
+      "соевый соус"
+    ],
+    "places": [
+      {
+        "restaurantId": "rest-jp-10",
+        "price": 1810
+      },
+      {
+        "restaurantId": "rest-jp-6",
+        "price": 2010
+      }
+    ]
+  },
+  {
+    "id": "dish-spider-roll",
+    "slug": "spider-roll",
+    "name": "Spider Roll",
+    "cuisine": "japanese",
+    "image": "https://placehold.co/800x600/jpg?text=Spider+Roll",
+    "shortDescription": "Spider Roll — signature japanese dish.",
+    "description": "Spider Roll is a popular japanese cuisine dish showcased in this demo. Prepared with local ingredients.",
+    "ingredients": [
+      "нори",
+      "рис",
+      "лосось"
+    ],
+    "places": [
+      {
+        "restaurantId": "rest-jp-8",
+        "price": 1380
+      },
+      {
+        "restaurantId": "rest-jp-5",
+        "price": 1240
+      }
+    ]
+  },
+  {
+    "id": "dish-dragon-roll",
+    "slug": "dragon-roll",
+    "name": "Dragon Roll",
+    "cuisine": "japanese",
+    "image": "https://placehold.co/800x600/jpg?text=Dragon+Roll",
+    "shortDescription": "Dragon Roll — signature japanese dish.",
+    "description": "Dragon Roll is a popular japanese cuisine dish showcased in this demo. Prepared with local ingredients.",
+    "ingredients": [
+      "нори",
+      "лосось",
+      "соевый соус"
+    ],
+    "places": [
+      {
+        "restaurantId": "rest-jp-2",
+        "price": 1070
+      },
+      {
+        "restaurantId": "rest-jp-9",
+        "price": 1090
+      }
+    ]
+  },
+  {
+    "id": "dish-rainbow-roll",
+    "slug": "rainbow-roll",
+    "name": "Rainbow Roll",
+    "cuisine": "japanese",
+    "image": "https://placehold.co/800x600/jpg?text=Rainbow+Roll",
+    "shortDescription": "Rainbow Roll — signature japanese dish.",
+    "description": "Rainbow Roll is a popular japanese cuisine dish showcased in this demo. Prepared with local ingredients.",
+    "ingredients": [
+      "рис",
+      "соевый соус",
+      "нори"
+    ],
+    "places": [
+      {
+        "restaurantId": "rest-jp-10",
+        "price": 2120
+      },
+      {
+        "restaurantId": "rest-jp-9",
+        "price": 1320
+      }
+    ]
+  },
+  {
+    "id": "dish-matcha-ice-cream",
+    "slug": "matcha-ice-cream",
+    "name": "Matcha Ice Cream",
+    "cuisine": "japanese",
+    "image": "https://placehold.co/800x600/jpg?text=Matcha+Ice+Cream",
+    "shortDescription": "Matcha Ice Cream — signature japanese dish.",
+    "description": "Matcha Ice Cream is a popular japanese cuisine dish showcased in this demo. Prepared with local ingredients.",
+    "ingredients": [
+      "лосось",
+      "рис",
+      "соевый соус"
+    ],
+    "places": [
+      {
+        "restaurantId": "rest-jp-6",
+        "price": 1050
+      }
+    ]
+  },
+  {
+    "id": "dish-green-tea-mochi",
+    "slug": "green-tea-mochi",
+    "name": "Green Tea Mochi",
+    "cuisine": "japanese",
+    "image": "https://placehold.co/800x600/jpg?text=Green+Tea+Mochi",
+    "shortDescription": "Green Tea Mochi — signature japanese dish.",
+    "description": "Green Tea Mochi is a popular japanese cuisine dish showcased in this demo. Prepared with local ingredients.",
+    "ingredients": [
+      "нори",
+      "лосось",
+      "соевый соус"
+    ],
+    "places": [
+      {
+        "restaurantId": "rest-jp-1",
+        "price": 2010
+      },
+      {
+        "restaurantId": "rest-jp-10",
+        "price": 1340
+      }
+    ]
+  },
+  {
+    "id": "dish-salmon-poke",
+    "slug": "salmon-poke",
+    "name": "Salmon Poke",
+    "cuisine": "japanese",
+    "image": "https://placehold.co/800x600/jpg?text=Salmon+Poke",
+    "shortDescription": "Salmon Poke — signature japanese dish.",
+    "description": "Salmon Poke is a popular japanese cuisine dish showcased in this demo. Prepared with local ingredients.",
+    "ingredients": [
+      "лосось",
+      "нори",
+      "соевый соус"
+    ],
+    "places": [
+      {
+        "restaurantId": "rest-jp-1",
+        "price": 2060
+      }
+    ]
+  },
+  {
+    "id": "dish-margherita-pizza",
+    "slug": "margherita-pizza",
+    "name": "Margherita Pizza",
+    "cuisine": "italian",
+    "image": "https://placehold.co/800x600/jpg?text=Margherita+Pizza",
+    "shortDescription": "Margherita Pizza — signature italian dish.",
+    "description": "Margherita Pizza is a popular italian cuisine dish showcased in this demo. Prepared with local ingredients.",
+    "ingredients": [
+      "базилик",
+      "паста",
+      "сыр"
+    ],
+    "places": [
+      {
+        "restaurantId": "rest-it-6",
+        "price": 510
+      },
+      {
+        "restaurantId": "rest-it-3",
+        "price": 770
+      }
+    ]
+  },
+  {
+    "id": "dish-pepperoni-pizza",
+    "slug": "pepperoni-pizza",
+    "name": "Pepperoni Pizza",
+    "cuisine": "italian",
+    "image": "https://placehold.co/800x600/jpg?text=Pepperoni+Pizza",
+    "shortDescription": "Pepperoni Pizza — signature italian dish.",
+    "description": "Pepperoni Pizza is a popular italian cuisine dish showcased in this demo. Prepared with local ingredients.",
+    "ingredients": [
+      "паста",
+      "базилик",
+      "сыр"
+    ],
+    "places": [
+      {
+        "restaurantId": "rest-it-8",
+        "price": 1180
+      },
+      {
+        "restaurantId": "rest-it-2",
+        "price": 1250
+      }
+    ]
+  },
+  {
+    "id": "dish-quattro-formaggi",
+    "slug": "quattro-formaggi",
+    "name": "Quattro Formaggi",
+    "cuisine": "italian",
+    "image": "https://placehold.co/800x600/jpg?text=Quattro+Formaggi",
+    "shortDescription": "Quattro Formaggi — signature italian dish.",
+    "description": "Quattro Formaggi is a popular italian cuisine dish showcased in this demo. Prepared with local ingredients.",
+    "ingredients": [
+      "базилик",
+      "сыр",
+      "паста"
+    ],
+    "places": [
+      {
+        "restaurantId": "rest-it-5",
+        "price": 600
+      },
+      {
+        "restaurantId": "rest-it-2",
+        "price": 1160
+      },
+      {
+        "restaurantId": "rest-it-4",
+        "price": 1420
+      }
+    ]
+  },
+  {
+    "id": "dish-pasta-carbonara",
+    "slug": "pasta-carbonara",
+    "name": "Pasta Carbonara",
+    "cuisine": "italian",
+    "image": "https://placehold.co/800x600/jpg?text=Pasta+Carbonara",
+    "shortDescription": "Pasta Carbonara — signature italian dish.",
+    "description": "Pasta Carbonara is a popular italian cuisine dish showcased in this demo. Prepared with local ingredients.",
+    "ingredients": [
+      "сыр",
+      "базилик",
+      "паста"
+    ],
+    "places": [
+      {
+        "restaurantId": "rest-it-7",
+        "price": 830
+      },
+      {
+        "restaurantId": "rest-it-8",
+        "price": 1200
+      },
+      {
+        "restaurantId": "rest-it-9",
+        "price": 990
+      }
+    ]
+  },
+  {
+    "id": "dish-pasta-bolognese",
+    "slug": "pasta-bolognese",
+    "name": "Pasta Bolognese",
+    "cuisine": "italian",
+    "image": "https://placehold.co/800x600/jpg?text=Pasta+Bolognese",
+    "shortDescription": "Pasta Bolognese — signature italian dish.",
+    "description": "Pasta Bolognese is a popular italian cuisine dish showcased in this demo. Prepared with local ingredients.",
+    "ingredients": [
+      "помидоры",
+      "паста",
+      "сыр"
+    ],
+    "places": [
+      {
+        "restaurantId": "rest-it-2",
+        "price": 780
+      },
+      {
+        "restaurantId": "rest-it-4",
+        "price": 1290
+      },
+      {
+        "restaurantId": "rest-it-9",
+        "price": 550
+      }
+    ]
+  },
+  {
+    "id": "dish-lasagna",
+    "slug": "lasagna",
+    "name": "Lasagna",
+    "cuisine": "italian",
+    "image": "https://placehold.co/800x600/jpg?text=Lasagna",
+    "shortDescription": "Lasagna — signature italian dish.",
+    "description": "Lasagna is a popular italian cuisine dish showcased in this demo. Prepared with local ingredients.",
+    "ingredients": [
+      "базилик",
+      "помидоры",
+      "паста"
+    ],
+    "places": [
+      {
+        "restaurantId": "rest-it-2",
+        "price": 970
+      },
+      {
+        "restaurantId": "rest-it-3",
+        "price": 1020
+      },
+      {
+        "restaurantId": "rest-it-1",
+        "price": 1330
+      }
+    ]
+  },
+  {
+    "id": "dish-fettuccine-alfredo",
+    "slug": "fettuccine-alfredo",
+    "name": "Fettuccine Alfredo",
+    "cuisine": "italian",
+    "image": "https://placehold.co/800x600/jpg?text=Fettuccine+Alfredo",
+    "shortDescription": "Fettuccine Alfredo — signature italian dish.",
+    "description": "Fettuccine Alfredo is a popular italian cuisine dish showcased in this demo. Prepared with local ingredients.",
+    "ingredients": [
+      "сыр",
+      "базилик",
+      "помидоры"
+    ],
+    "places": [
+      {
+        "restaurantId": "rest-it-5",
+        "price": 1350
+      }
+    ]
+  },
+  {
+    "id": "dish-pesto-pasta",
+    "slug": "pesto-pasta",
+    "name": "Pesto Pasta",
+    "cuisine": "italian",
+    "image": "https://placehold.co/800x600/jpg?text=Pesto+Pasta",
+    "shortDescription": "Pesto Pasta — signature italian dish.",
+    "description": "Pesto Pasta is a popular italian cuisine dish showcased in this demo. Prepared with local ingredients.",
+    "ingredients": [
+      "помидоры",
+      "базилик",
+      "паста"
+    ],
+    "places": [
+      {
+        "restaurantId": "rest-it-4",
+        "price": 780
+      }
+    ]
+  },
+  {
+    "id": "dish-risotto-milanese",
+    "slug": "risotto-milanese",
+    "name": "Risotto Milanese",
+    "cuisine": "italian",
+    "image": "https://placehold.co/800x600/jpg?text=Risotto+Milanese",
+    "shortDescription": "Risotto Milanese — signature italian dish.",
+    "description": "Risotto Milanese is a popular italian cuisine dish showcased in this demo. Prepared with local ingredients.",
+    "ingredients": [
+      "помидоры",
+      "базилик",
+      "сыр"
+    ],
+    "places": [
+      {
+        "restaurantId": "rest-it-4",
+        "price": 630
+      },
+      {
+        "restaurantId": "rest-it-3",
+        "price": 540
+      },
+      {
+        "restaurantId": "rest-it-5",
+        "price": 520
+      }
+    ]
+  },
+  {
+    "id": "dish-risotto-funghi",
+    "slug": "risotto-funghi",
+    "name": "Risotto Funghi",
+    "cuisine": "italian",
+    "image": "https://placehold.co/800x600/jpg?text=Risotto+Funghi",
+    "shortDescription": "Risotto Funghi — signature italian dish.",
+    "description": "Risotto Funghi is a popular italian cuisine dish showcased in this demo. Prepared with local ingredients.",
+    "ingredients": [
+      "базилик",
+      "помидоры",
+      "сыр"
+    ],
+    "places": [
+      {
+        "restaurantId": "rest-it-2",
+        "price": 1330
+      },
+      {
+        "restaurantId": "rest-it-8",
+        "price": 830
+      }
+    ]
+  },
+  {
+    "id": "dish-bruschetta",
+    "slug": "bruschetta",
+    "name": "Bruschetta",
+    "cuisine": "italian",
+    "image": "https://placehold.co/800x600/jpg?text=Bruschetta",
+    "shortDescription": "Bruschetta — signature italian dish.",
+    "description": "Bruschetta is a popular italian cuisine dish showcased in this demo. Prepared with local ingredients.",
+    "ingredients": [
+      "сыр",
+      "базилик",
+      "помидоры"
+    ],
+    "places": [
+      {
+        "restaurantId": "rest-it-2",
+        "price": 1000
+      },
+      {
+        "restaurantId": "rest-it-1",
+        "price": 1390
+      }
+    ]
+  },
+  {
+    "id": "dish-caprese-salad",
+    "slug": "caprese-salad",
+    "name": "Caprese Salad",
+    "cuisine": "italian",
+    "image": "https://placehold.co/800x600/jpg?text=Caprese+Salad",
+    "shortDescription": "Caprese Salad — signature italian dish.",
+    "description": "Caprese Salad is a popular italian cuisine dish showcased in this demo. Prepared with local ingredients.",
+    "ingredients": [
+      "паста",
+      "сыр",
+      "помидоры"
+    ],
+    "places": [
+      {
+        "restaurantId": "rest-it-2",
+        "price": 740
+      }
+    ]
+  },
+  {
+    "id": "dish-gnocchi",
+    "slug": "gnocchi",
+    "name": "Gnocchi",
+    "cuisine": "italian",
+    "image": "https://placehold.co/800x600/jpg?text=Gnocchi",
+    "shortDescription": "Gnocchi — signature italian dish.",
+    "description": "Gnocchi is a popular italian cuisine dish showcased in this demo. Prepared with local ingredients.",
+    "ingredients": [
+      "сыр",
+      "паста",
+      "помидоры"
+    ],
+    "places": [
+      {
+        "restaurantId": "rest-it-1",
+        "price": 1110
+      },
+      {
+        "restaurantId": "rest-it-3",
+        "price": 1280
+      },
+      {
+        "restaurantId": "rest-it-8",
+        "price": 1010
+      }
+    ]
+  },
+  {
+    "id": "dish-ravioli-ricotta",
+    "slug": "ravioli-ricotta",
+    "name": "Ravioli Ricotta",
+    "cuisine": "italian",
+    "image": "https://placehold.co/800x600/jpg?text=Ravioli+Ricotta",
+    "shortDescription": "Ravioli Ricotta — signature italian dish.",
+    "description": "Ravioli Ricotta is a popular italian cuisine dish showcased in this demo. Prepared with local ingredients.",
+    "ingredients": [
+      "сыр",
+      "базилик",
+      "паста"
+    ],
+    "places": [
+      {
+        "restaurantId": "rest-it-8",
+        "price": 890
+      },
+      {
+        "restaurantId": "rest-it-2",
+        "price": 970
+      },
+      {
+        "restaurantId": "rest-it-10",
+        "price": 870
+      }
+    ]
+  },
+  {
+    "id": "dish-penne-arrabbiata",
+    "slug": "penne-arrabbiata",
+    "name": "Penne Arrabbiata",
+    "cuisine": "italian",
+    "image": "https://placehold.co/800x600/jpg?text=Penne+Arrabbiata",
+    "shortDescription": "Penne Arrabbiata — signature italian dish.",
+    "description": "Penne Arrabbiata is a popular italian cuisine dish showcased in this demo. Prepared with local ingredients.",
+    "ingredients": [
+      "базилик",
+      "помидоры",
+      "сыр"
+    ],
+    "places": [
+      {
+        "restaurantId": "rest-it-6",
+        "price": 970
+      }
+    ]
+  },
+  {
+    "id": "dish-calzone",
+    "slug": "calzone",
+    "name": "Calzone",
+    "cuisine": "italian",
+    "image": "https://placehold.co/800x600/jpg?text=Calzone",
+    "shortDescription": "Calzone — signature italian dish.",
+    "description": "Calzone is a popular italian cuisine dish showcased in this demo. Prepared with local ingredients.",
+    "ingredients": [
+      "паста",
+      "помидоры",
+      "базилик"
+    ],
+    "places": [
+      {
+        "restaurantId": "rest-it-1",
+        "price": 850
+      },
+      {
+        "restaurantId": "rest-it-8",
+        "price": 770
+      },
+      {
+        "restaurantId": "rest-it-2",
+        "price": 860
+      }
+    ]
+  },
+  {
+    "id": "dish-tiramisu",
+    "slug": "tiramisu",
+    "name": "Tiramisu",
+    "cuisine": "italian",
+    "image": "https://placehold.co/800x600/jpg?text=Tiramisu",
+    "shortDescription": "Tiramisu — signature italian dish.",
+    "description": "Tiramisu is a popular italian cuisine dish showcased in this demo. Prepared with local ingredients.",
+    "ingredients": [
+      "сыр",
+      "базилик",
+      "помидоры"
+    ],
+    "places": [
+      {
+        "restaurantId": "rest-it-9",
+        "price": 510
+      },
+      {
+        "restaurantId": "rest-it-8",
+        "price": 690
+      },
+      {
+        "restaurantId": "rest-it-7",
+        "price": 1110
+      }
+    ]
+  },
+  {
+    "id": "dish-panna-cotta",
+    "slug": "panna-cotta",
+    "name": "Panna Cotta",
+    "cuisine": "italian",
+    "image": "https://placehold.co/800x600/jpg?text=Panna+Cotta",
+    "shortDescription": "Panna Cotta — signature italian dish.",
+    "description": "Panna Cotta is a popular italian cuisine dish showcased in this demo. Prepared with local ingredients.",
+    "ingredients": [
+      "сыр",
+      "помидоры",
+      "базилик"
+    ],
+    "places": [
+      {
+        "restaurantId": "rest-it-8",
+        "price": 790
+      },
+      {
+        "restaurantId": "rest-it-1",
+        "price": 1150
+      },
+      {
+        "restaurantId": "rest-it-4",
+        "price": 610
+      }
+    ]
+  },
+  {
+    "id": "dish-minestrone",
+    "slug": "minestrone",
+    "name": "Minestrone",
+    "cuisine": "italian",
+    "image": "https://placehold.co/800x600/jpg?text=Minestrone",
+    "shortDescription": "Minestrone — signature italian dish.",
+    "description": "Minestrone is a popular italian cuisine dish showcased in this demo. Prepared with local ingredients.",
+    "ingredients": [
+      "помидоры",
+      "сыр",
+      "паста"
+    ],
+    "places": [
+      {
+        "restaurantId": "rest-it-1",
+        "price": 1250
+      }
+    ]
+  },
+  {
+    "id": "dish-prosciutto-e-melone",
+    "slug": "prosciutto-e-melone",
+    "name": "Prosciutto e Melone",
+    "cuisine": "italian",
+    "image": "https://placehold.co/800x600/jpg?text=Prosciutto+e+Melone",
+    "shortDescription": "Prosciutto e Melone — signature italian dish.",
+    "description": "Prosciutto e Melone is a popular italian cuisine dish showcased in this demo. Prepared with local ingredients.",
+    "ingredients": [
+      "паста",
+      "базилик",
+      "сыр"
+    ],
+    "places": [
+      {
+        "restaurantId": "rest-it-9",
+        "price": 1150
+      },
+      {
+        "restaurantId": "rest-it-1",
+        "price": 970
+      }
+    ]
+  },
+  {
+    "id": "dish-arancini",
+    "slug": "arancini",
+    "name": "Arancini",
+    "cuisine": "italian",
+    "image": "https://placehold.co/800x600/jpg?text=Arancini",
+    "shortDescription": "Arancini — signature italian dish.",
+    "description": "Arancini is a popular italian cuisine dish showcased in this demo. Prepared with local ingredients.",
+    "ingredients": [
+      "сыр",
+      "базилик",
+      "помидоры"
+    ],
+    "places": [
+      {
+        "restaurantId": "rest-it-2",
+        "price": 1080
+      },
+      {
+        "restaurantId": "rest-it-3",
+        "price": 1360
+      }
+    ]
+  },
+  {
+    "id": "dish-seafood-linguine",
+    "slug": "seafood-linguine",
+    "name": "Seafood Linguine",
+    "cuisine": "italian",
+    "image": "https://placehold.co/800x600/jpg?text=Seafood+Linguine",
+    "shortDescription": "Seafood Linguine — signature italian dish.",
+    "description": "Seafood Linguine is a popular italian cuisine dish showcased in this demo. Prepared with local ingredients.",
+    "ingredients": [
+      "помидоры",
+      "базилик",
+      "паста"
+    ],
+    "places": [
+      {
+        "restaurantId": "rest-it-8",
+        "price": 760
+      },
+      {
+        "restaurantId": "rest-it-10",
+        "price": 1030
+      }
+    ]
+  },
+  {
+    "id": "dish-pizza-diavola",
+    "slug": "pizza-diavola",
+    "name": "Pizza Diavola",
+    "cuisine": "italian",
+    "image": "https://placehold.co/800x600/jpg?text=Pizza+Diavola",
+    "shortDescription": "Pizza Diavola — signature italian dish.",
+    "description": "Pizza Diavola is a popular italian cuisine dish showcased in this demo. Prepared with local ingredients.",
+    "ingredients": [
+      "базилик",
+      "помидоры",
+      "сыр"
+    ],
+    "places": [
+      {
+        "restaurantId": "rest-it-9",
+        "price": 800
+      },
+      {
+        "restaurantId": "rest-it-3",
+        "price": 1430
+      },
+      {
+        "restaurantId": "rest-it-2",
+        "price": 1460
+      }
+    ]
+  },
+  {
+    "id": "dish-pizza-quattro-stagioni",
+    "slug": "pizza-quattro-stagioni",
+    "name": "Pizza Quattro Stagioni",
+    "cuisine": "italian",
+    "image": "https://placehold.co/800x600/jpg?text=Pizza+Quattro+Stagioni",
+    "shortDescription": "Pizza Quattro Stagioni — signature italian dish.",
+    "description": "Pizza Quattro Stagioni is a popular italian cuisine dish showcased in this demo. Prepared with local ingredients.",
+    "ingredients": [
+      "сыр",
+      "базилик",
+      "помидоры"
+    ],
+    "places": [
+      {
+        "restaurantId": "rest-it-5",
+        "price": 1370
+      }
+    ]
+  },
+  {
+    "id": "dish-affogato",
+    "slug": "affogato",
+    "name": "Affogato",
+    "cuisine": "italian",
+    "image": "https://placehold.co/800x600/jpg?text=Affogato",
+    "shortDescription": "Affogato — signature italian dish.",
+    "description": "Affogato is a popular italian cuisine dish showcased in this demo. Prepared with local ingredients.",
+    "ingredients": [
+      "базилик",
+      "помидоры",
+      "сыр"
+    ],
+    "places": [
+      {
+        "restaurantId": "rest-it-8",
+        "price": 1130
+      }
+    ]
+  },
+  {
+    "id": "dish-beef-steak",
+    "slug": "beef-steak",
+    "name": "Beef Steak",
+    "cuisine": "european",
+    "image": "https://placehold.co/800x600/jpg?text=Beef+Steak",
+    "shortDescription": "Beef Steak — signature european dish.",
+    "description": "Beef Steak is a popular european cuisine dish showcased in this demo. Prepared with local ingredients.",
+    "ingredients": [
+      "овощи",
+      "говядина",
+      "картофель"
+    ],
+    "places": [
+      {
+        "restaurantId": "rest-eu-9",
+        "price": 1320
+      },
+      {
+        "restaurantId": "rest-eu-7",
+        "price": 980
+      },
+      {
+        "restaurantId": "rest-eu-8",
+        "price": 1110
+      }
+    ]
+  },
+  {
+    "id": "dish-chicken-kiev",
+    "slug": "chicken-kiev",
+    "name": "Chicken Kiev",
+    "cuisine": "european",
+    "image": "https://placehold.co/800x600/jpg?text=Chicken+Kiev",
+    "shortDescription": "Chicken Kiev — signature european dish.",
+    "description": "Chicken Kiev is a popular european cuisine dish showcased in this demo. Prepared with local ingredients.",
+    "ingredients": [
+      "овощи",
+      "картофель",
+      "говядина"
+    ],
+    "places": [
+      {
+        "restaurantId": "rest-eu-6",
+        "price": 1710
+      }
+    ]
+  },
+  {
+    "id": "dish-beef-stroganoff",
+    "slug": "beef-stroganoff",
+    "name": "Beef Stroganoff",
+    "cuisine": "european",
+    "image": "https://placehold.co/800x600/jpg?text=Beef+Stroganoff",
+    "shortDescription": "Beef Stroganoff — signature european dish.",
+    "description": "Beef Stroganoff is a popular european cuisine dish showcased in this demo. Prepared with local ingredients.",
+    "ingredients": [
+      "говядина",
+      "картофель",
+      "овощи"
+    ],
+    "places": [
+      {
+        "restaurantId": "rest-eu-1",
+        "price": 1780
+      },
+      {
+        "restaurantId": "rest-eu-3",
+        "price": 1340
+      }
+    ]
+  },
+  {
+    "id": "dish-borscht",
+    "slug": "borscht",
+    "name": "Borscht",
+    "cuisine": "european",
+    "image": "https://placehold.co/800x600/jpg?text=Borscht",
+    "shortDescription": "Borscht — signature european dish.",
+    "description": "Borscht is a popular european cuisine dish showcased in this demo. Prepared with local ingredients.",
+    "ingredients": [
+      "овощи",
+      "картофель",
+      "соус"
+    ],
+    "places": [
+      {
+        "restaurantId": "rest-eu-8",
+        "price": 1540
+      },
+      {
+        "restaurantId": "rest-eu-1",
+        "price": 890
+      },
+      {
+        "restaurantId": "rest-eu-3",
+        "price": 690
+      }
+    ]
+  },
+  {
+    "id": "dish-schnitzel",
+    "slug": "schnitzel",
+    "name": "Schnitzel",
+    "cuisine": "european",
+    "image": "https://placehold.co/800x600/jpg?text=Schnitzel",
+    "shortDescription": "Schnitzel — signature european dish.",
+    "description": "Schnitzel is a popular european cuisine dish showcased in this demo. Prepared with local ingredients.",
+    "ingredients": [
+      "овощи",
+      "соус",
+      "говядина"
+    ],
+    "places": [
+      {
+        "restaurantId": "rest-eu-7",
+        "price": 1860
+      },
+      {
+        "restaurantId": "rest-eu-2",
+        "price": 1470
+      },
+      {
+        "restaurantId": "rest-eu-6",
+        "price": 1310
+      }
+    ]
+  },
+  {
+    "id": "dish-fish-and-chips",
+    "slug": "fish-and-chips",
+    "name": "Fish and Chips",
+    "cuisine": "european",
+    "image": "https://placehold.co/800x600/jpg?text=Fish+and+Chips",
+    "shortDescription": "Fish and Chips — signature european dish.",
+    "description": "Fish and Chips is a popular european cuisine dish showcased in this demo. Prepared with local ingredients.",
+    "ingredients": [
+      "говядина",
+      "соус",
+      "овощи"
+    ],
+    "places": [
+      {
+        "restaurantId": "rest-eu-2",
+        "price": 1080
+      },
+      {
+        "restaurantId": "rest-eu-4",
+        "price": 730
+      },
+      {
+        "restaurantId": "rest-eu-5",
+        "price": 1610
+      }
+    ]
+  },
+  {
+    "id": "dish-greek-salad",
+    "slug": "greek-salad",
+    "name": "Greek Salad",
+    "cuisine": "european",
+    "image": "https://placehold.co/800x600/jpg?text=Greek+Salad",
+    "shortDescription": "Greek Salad — signature european dish.",
+    "description": "Greek Salad is a popular european cuisine dish showcased in this demo. Prepared with local ingredients.",
+    "ingredients": [
+      "соус",
+      "говядина",
+      "картофель"
+    ],
+    "places": [
+      {
+        "restaurantId": "rest-eu-3",
+        "price": 570
+      },
+      {
+        "restaurantId": "rest-eu-5",
+        "price": 610
+      }
+    ]
+  },
+  {
+    "id": "dish-caesar-salad",
+    "slug": "caesar-salad",
+    "name": "Caesar Salad",
+    "cuisine": "european",
+    "image": "https://placehold.co/800x600/jpg?text=Caesar+Salad",
+    "shortDescription": "Caesar Salad — signature european dish.",
+    "description": "Caesar Salad is a popular european cuisine dish showcased in this demo. Prepared with local ingredients.",
+    "ingredients": [
+      "овощи",
+      "соус",
+      "говядина"
+    ],
+    "places": [
+      {
+        "restaurantId": "rest-eu-6",
+        "price": 870
+      },
+      {
+        "restaurantId": "rest-eu-7",
+        "price": 1120
+      }
+    ]
+  },
+  {
+    "id": "dish-ratatouille",
+    "slug": "ratatouille",
+    "name": "Ratatouille",
+    "cuisine": "european",
+    "image": "https://placehold.co/800x600/jpg?text=Ratatouille",
+    "shortDescription": "Ratatouille — signature european dish.",
+    "description": "Ratatouille is a popular european cuisine dish showcased in this demo. Prepared with local ingredients.",
+    "ingredients": [
+      "овощи",
+      "соус",
+      "говядина"
+    ],
+    "places": [
+      {
+        "restaurantId": "rest-eu-3",
+        "price": 700
+      }
+    ]
+  },
+  {
+    "id": "dish-goulash",
+    "slug": "goulash",
+    "name": "Goulash",
+    "cuisine": "european",
+    "image": "https://placehold.co/800x600/jpg?text=Goulash",
+    "shortDescription": "Goulash — signature european dish.",
+    "description": "Goulash is a popular european cuisine dish showcased in this demo. Prepared with local ingredients.",
+    "ingredients": [
+      "соус",
+      "картофель",
+      "овощи"
+    ],
+    "places": [
+      {
+        "restaurantId": "rest-eu-10",
+        "price": 1090
+      },
+      {
+        "restaurantId": "rest-eu-3",
+        "price": 1680
+      }
+    ]
+  },
+  {
+    "id": "dish-paella",
+    "slug": "paella",
+    "name": "Paella",
+    "cuisine": "european",
+    "image": "https://placehold.co/800x600/jpg?text=Paella",
+    "shortDescription": "Paella — signature european dish.",
+    "description": "Paella is a popular european cuisine dish showcased in this demo. Prepared with local ingredients.",
+    "ingredients": [
+      "овощи",
+      "картофель",
+      "соус"
+    ],
+    "places": [
+      {
+        "restaurantId": "rest-eu-1",
+        "price": 1890
+      },
+      {
+        "restaurantId": "rest-eu-8",
+        "price": 900
+      },
+      {
+        "restaurantId": "rest-eu-5",
+        "price": 680
+      }
+    ]
+  },
+  {
+    "id": "dish-moussaka",
+    "slug": "moussaka",
+    "name": "Moussaka",
+    "cuisine": "european",
+    "image": "https://placehold.co/800x600/jpg?text=Moussaka",
+    "shortDescription": "Moussaka — signature european dish.",
+    "description": "Moussaka is a popular european cuisine dish showcased in this demo. Prepared with local ingredients.",
+    "ingredients": [
+      "овощи",
+      "говядина",
+      "соус"
+    ],
+    "places": [
+      {
+        "restaurantId": "rest-eu-7",
+        "price": 1270
+      },
+      {
+        "restaurantId": "rest-eu-5",
+        "price": 1000
+      },
+      {
+        "restaurantId": "rest-eu-8",
+        "price": 1480
+      }
+    ]
+  },
+  {
+    "id": "dish-shepherd-s-pie",
+    "slug": "shepherd-s-pie",
+    "name": "Shepherd's Pie",
+    "cuisine": "european",
+    "image": "https://placehold.co/800x600/jpg?text=Shepherd%27s+Pie",
+    "shortDescription": "Shepherd's Pie — signature european dish.",
+    "description": "Shepherd's Pie is a popular european cuisine dish showcased in this demo. Prepared with local ingredients.",
+    "ingredients": [
+      "соус",
+      "говядина",
+      "картофель"
+    ],
+    "places": [
+      {
+        "restaurantId": "rest-eu-10",
+        "price": 1970
+      },
+      {
+        "restaurantId": "rest-eu-6",
+        "price": 1250
+      }
+    ]
+  },
+  {
+    "id": "dish-bratwurst",
+    "slug": "bratwurst",
+    "name": "Bratwurst",
+    "cuisine": "european",
+    "image": "https://placehold.co/800x600/jpg?text=Bratwurst",
+    "shortDescription": "Bratwurst — signature european dish.",
+    "description": "Bratwurst is a popular european cuisine dish showcased in this demo. Prepared with local ingredients.",
+    "ingredients": [
+      "картофель",
+      "соус",
+      "овощи"
+    ],
+    "places": [
+      {
+        "restaurantId": "rest-eu-1",
+        "price": 1770
+      },
+      {
+        "restaurantId": "rest-eu-10",
+        "price": 1230
+      }
+    ]
+  },
+  {
+    "id": "dish-sauerkraut",
+    "slug": "sauerkraut",
+    "name": "Sauerkraut",
+    "cuisine": "european",
+    "image": "https://placehold.co/800x600/jpg?text=Sauerkraut",
+    "shortDescription": "Sauerkraut — signature european dish.",
+    "description": "Sauerkraut is a popular european cuisine dish showcased in this demo. Prepared with local ingredients.",
+    "ingredients": [
+      "картофель",
+      "соус",
+      "говядина"
+    ],
+    "places": [
+      {
+        "restaurantId": "rest-eu-4",
+        "price": 1140
+      }
+    ]
+  },
+  {
+    "id": "dish-belgian-waffles",
+    "slug": "belgian-waffles",
+    "name": "Belgian Waffles",
+    "cuisine": "european",
+    "image": "https://placehold.co/800x600/jpg?text=Belgian+Waffles",
+    "shortDescription": "Belgian Waffles — signature european dish.",
+    "description": "Belgian Waffles is a popular european cuisine dish showcased in this demo. Prepared with local ingredients.",
+    "ingredients": [
+      "картофель",
+      "говядина",
+      "овощи"
+    ],
+    "places": [
+      {
+        "restaurantId": "rest-eu-1",
+        "price": 580
+      },
+      {
+        "restaurantId": "rest-eu-5",
+        "price": 1980
+      },
+      {
+        "restaurantId": "rest-eu-8",
+        "price": 1430
+      }
+    ]
+  },
+  {
+    "id": "dish-creme-brulee",
+    "slug": "creme-brulee",
+    "name": "Creme Brulee",
+    "cuisine": "european",
+    "image": "https://placehold.co/800x600/jpg?text=Creme+Brulee",
+    "shortDescription": "Creme Brulee — signature european dish.",
+    "description": "Creme Brulee is a popular european cuisine dish showcased in this demo. Prepared with local ingredients.",
+    "ingredients": [
+      "соус",
+      "овощи",
+      "картофель"
+    ],
+    "places": [
+      {
+        "restaurantId": "rest-eu-7",
+        "price": 1010
+      },
+      {
+        "restaurantId": "rest-eu-3",
+        "price": 830
+      }
+    ]
+  },
+  {
+    "id": "dish-apple-strudel",
+    "slug": "apple-strudel",
+    "name": "Apple Strudel",
+    "cuisine": "european",
+    "image": "https://placehold.co/800x600/jpg?text=Apple+Strudel",
+    "shortDescription": "Apple Strudel — signature european dish.",
+    "description": "Apple Strudel is a popular european cuisine dish showcased in this demo. Prepared with local ingredients.",
+    "ingredients": [
+      "соус",
+      "овощи",
+      "картофель"
+    ],
+    "places": [
+      {
+        "restaurantId": "rest-eu-5",
+        "price": 1730
+      }
+    ]
+  },
+  {
+    "id": "dish-roast-pork",
+    "slug": "roast-pork",
+    "name": "Roast Pork",
+    "cuisine": "european",
+    "image": "https://placehold.co/800x600/jpg?text=Roast+Pork",
+    "shortDescription": "Roast Pork — signature european dish.",
+    "description": "Roast Pork is a popular european cuisine dish showcased in this demo. Prepared with local ingredients.",
+    "ingredients": [
+      "картофель",
+      "говядина",
+      "овощи"
+    ],
+    "places": [
+      {
+        "restaurantId": "rest-eu-8",
+        "price": 690
+      }
+    ]
+  },
+  {
+    "id": "dish-lamb-chops",
+    "slug": "lamb-chops",
+    "name": "Lamb Chops",
+    "cuisine": "european",
+    "image": "https://placehold.co/800x600/jpg?text=Lamb+Chops",
+    "shortDescription": "Lamb Chops — signature european dish.",
+    "description": "Lamb Chops is a popular european cuisine dish showcased in this demo. Prepared with local ingredients.",
+    "ingredients": [
+      "говядина",
+      "картофель",
+      "соус"
+    ],
+    "places": [
+      {
+        "restaurantId": "rest-eu-6",
+        "price": 530
+      },
+      {
+        "restaurantId": "rest-eu-2",
+        "price": 1170
+      },
+      {
+        "restaurantId": "rest-eu-7",
+        "price": 1870
+      }
+    ]
+  },
+  {
+    "id": "dish-sea-bass-fillet",
+    "slug": "sea-bass-fillet",
+    "name": "Sea Bass Fillet",
+    "cuisine": "european",
+    "image": "https://placehold.co/800x600/jpg?text=Sea+Bass+Fillet",
+    "shortDescription": "Sea Bass Fillet — signature european dish.",
+    "description": "Sea Bass Fillet is a popular european cuisine dish showcased in this demo. Prepared with local ingredients.",
+    "ingredients": [
+      "говядина",
+      "соус",
+      "картофель"
+    ],
+    "places": [
+      {
+        "restaurantId": "rest-eu-5",
+        "price": 770
+      },
+      {
+        "restaurantId": "rest-eu-7",
+        "price": 1090
+      },
+      {
+        "restaurantId": "rest-eu-6",
+        "price": 1700
+      }
+    ]
+  },
+  {
+    "id": "dish-mushroom-cream-soup",
+    "slug": "mushroom-cream-soup",
+    "name": "Mushroom Cream Soup",
+    "cuisine": "european",
+    "image": "https://placehold.co/800x600/jpg?text=Mushroom+Cream+Soup",
+    "shortDescription": "Mushroom Cream Soup — signature european dish.",
+    "description": "Mushroom Cream Soup is a popular european cuisine dish showcased in this demo. Prepared with local ingredients.",
+    "ingredients": [
+      "картофель",
+      "говядина",
+      "соус"
+    ],
+    "places": [
+      {
+        "restaurantId": "rest-eu-4",
+        "price": 1270
+      },
+      {
+        "restaurantId": "rest-eu-2",
+        "price": 1540
+      },
+      {
+        "restaurantId": "rest-eu-8",
+        "price": 790
+      }
+    ]
+  },
+  {
+    "id": "dish-cheese-plate",
+    "slug": "cheese-plate",
+    "name": "Cheese Plate",
+    "cuisine": "european",
+    "image": "https://placehold.co/800x600/jpg?text=Cheese+Plate",
+    "shortDescription": "Cheese Plate — signature european dish.",
+    "description": "Cheese Plate is a popular european cuisine dish showcased in this demo. Prepared with local ingredients.",
+    "ingredients": [
+      "картофель",
+      "овощи",
+      "соус"
+    ],
+    "places": [
+      {
+        "restaurantId": "rest-eu-8",
+        "price": 740
+      },
+      {
+        "restaurantId": "rest-eu-2",
+        "price": 1100
+      }
+    ]
+  },
+  {
+    "id": "dish-mashed-potatoes",
+    "slug": "mashed-potatoes",
+    "name": "Mashed Potatoes",
+    "cuisine": "european",
+    "image": "https://placehold.co/800x600/jpg?text=Mashed+Potatoes",
+    "shortDescription": "Mashed Potatoes — signature european dish.",
+    "description": "Mashed Potatoes is a popular european cuisine dish showcased in this demo. Prepared with local ingredients.",
+    "ingredients": [
+      "говядина",
+      "картофель",
+      "соус"
+    ],
+    "places": [
+      {
+        "restaurantId": "rest-eu-9",
+        "price": 890
+      },
+      {
+        "restaurantId": "rest-eu-7",
+        "price": 1560
+      }
+    ]
+  },
+  {
+    "id": "dish-grilled-vegetables",
+    "slug": "grilled-vegetables",
+    "name": "Grilled Vegetables",
+    "cuisine": "european",
+    "image": "https://placehold.co/800x600/jpg?text=Grilled+Vegetables",
+    "shortDescription": "Grilled Vegetables — signature european dish.",
+    "description": "Grilled Vegetables is a popular european cuisine dish showcased in this demo. Prepared with local ingredients.",
+    "ingredients": [
+      "овощи",
+      "говядина",
+      "картофель"
+    ],
+    "places": [
+      {
+        "restaurantId": "rest-eu-1",
+        "price": 1050
+      },
+      {
+        "restaurantId": "rest-eu-6",
+        "price": 1630
+      }
+    ]
+  }
+]

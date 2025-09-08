@@ -1,0 +1,16 @@
+# билды и кэш
+.next
+out
+build
+dist
+coverage
+node_modules
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+
+# генерируемые файлы
+next-env.d.ts
+
+# если не хочешь форматировать эти типы:
+public

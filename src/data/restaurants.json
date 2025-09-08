@@ -1,0 +1,394 @@
+[
+  {
+    "id": "rest-kg-1",
+    "name": "Ala-Too",
+    "address": "Бишкек, ул. Советская 100",
+    "cuisineTags": [
+      "kyrgyz"
+    ]
+  },
+  {
+    "id": "rest-kg-2",
+    "name": "Nomad",
+    "address": "Бишкек, ул. Советская 101",
+    "cuisineTags": [
+      "kyrgyz"
+    ]
+  },
+  {
+    "id": "rest-kg-3",
+    "name": "Supara",
+    "address": "Бишкек, ул. Советская 102",
+    "cuisineTags": [
+      "kyrgyz"
+    ]
+  },
+  {
+    "id": "rest-kg-4",
+    "name": "Navat",
+    "address": "Бишкек, ул. Советская 103",
+    "cuisineTags": [
+      "kyrgyz"
+    ]
+  },
+  {
+    "id": "rest-kg-5",
+    "name": "Arzu",
+    "address": "Бишкек, ул. Советская 104",
+    "cuisineTags": [
+      "kyrgyz"
+    ]
+  },
+  {
+    "id": "rest-kg-6",
+    "name": "Ethno Kafe",
+    "address": "Бишкек, ул. Советская 105",
+    "cuisineTags": [
+      "kyrgyz"
+    ]
+  },
+  {
+    "id": "rest-kg-7",
+    "name": "Ordo",
+    "address": "Бишкек, ул. Советская 106",
+    "cuisineTags": [
+      "kyrgyz"
+    ]
+  },
+  {
+    "id": "rest-kg-8",
+    "name": "Besh Barmak House",
+    "address": "Бишкек, ул. Советская 107",
+    "cuisineTags": [
+      "kyrgyz"
+    ]
+  },
+  {
+    "id": "rest-kg-9",
+    "name": "Boorsok",
+    "address": "Бишкек, ул. Советская 108",
+    "cuisineTags": [
+      "kyrgyz"
+    ]
+  },
+  {
+    "id": "rest-kg-10",
+    "name": "Kyrgyz Taste",
+    "address": "Бишкек, ул. Советская 109",
+    "cuisineTags": [
+      "kyrgyz"
+    ]
+  },
+  {
+    "id": "rest-ud-1",
+    "name": "Uyghur House",
+    "address": "Бишкек, ул. Токтогула 50",
+    "cuisineTags": [
+      "uyghur",
+      "dungan"
+    ]
+  },
+  {
+    "id": "rest-ud-2",
+    "name": "Lagman Center",
+    "address": "Бишкек, ул. Токтогула 51",
+    "cuisineTags": [
+      "uyghur",
+      "dungan"
+    ]
+  },
+  {
+    "id": "rest-ud-3",
+    "name": "Dungan Corner",
+    "address": "Бишкек, ул. Токтогула 52",
+    "cuisineTags": [
+      "uyghur",
+      "dungan"
+    ]
+  },
+  {
+    "id": "rest-ud-4",
+    "name": "Ashlyan-Fu Bistro",
+    "address": "Бишкек, ул. Токтогула 53",
+    "cuisineTags": [
+      "uyghur",
+      "dungan"
+    ]
+  },
+  {
+    "id": "rest-ud-5",
+    "name": "Silk Road Noodles",
+    "address": "Бишкек, ул. Токтогула 54",
+    "cuisineTags": [
+      "uyghur",
+      "dungan"
+    ]
+  },
+  {
+    "id": "rest-ud-6",
+    "name": "Dungan Kitchen",
+    "address": "Бишкек, ул. Токтогула 55",
+    "cuisineTags": [
+      "uyghur",
+      "dungan"
+    ]
+  },
+  {
+    "id": "rest-ud-7",
+    "name": "Uyghur Family",
+    "address": "Бишкек, ул. Токтогула 56",
+    "cuisineTags": [
+      "uyghur",
+      "dungan"
+    ]
+  },
+  {
+    "id": "rest-ud-8",
+    "name": "Spicy Wok",
+    "address": "Бишкек, ул. Токтогула 57",
+    "cuisineTags": [
+      "uyghur",
+      "dungan"
+    ]
+  },
+  {
+    "id": "rest-jp-1",
+    "name": "Sakura",
+    "address": "Бишкек, пр. Чуй 150",
+    "cuisineTags": [
+      "japanese"
+    ]
+  },
+  {
+    "id": "rest-jp-2",
+    "name": "Tokyo Sushi",
+    "address": "Бишкек, пр. Чуй 151",
+    "cuisineTags": [
+      "japanese"
+    ]
+  },
+  {
+    "id": "rest-jp-3",
+    "name": "Samurai",
+    "address": "Бишкек, пр. Чуй 152",
+    "cuisineTags": [
+      "japanese"
+    ]
+  },
+  {
+    "id": "rest-jp-4",
+    "name": "Wasabi Bar",
+    "address": "Бишкек, пр. Чуй 153",
+    "cuisineTags": [
+      "japanese"
+    ]
+  },
+  {
+    "id": "rest-jp-5",
+    "name": "Hokkaido",
+    "address": "Бишкек, пр. Чуй 154",
+    "cuisineTags": [
+      "japanese"
+    ]
+  },
+  {
+    "id": "rest-jp-6",
+    "name": "Osaka Roll",
+    "address": "Бишкек, пр. Чуй 155",
+    "cuisineTags": [
+      "japanese"
+    ]
+  },
+  {
+    "id": "rest-jp-7",
+    "name": "Nori & Rice",
+    "address": "Бишкек, пр. Чуй 156",
+    "cuisineTags": [
+      "japanese"
+    ]
+  },
+  {
+    "id": "rest-jp-8",
+    "name": "Zen Sushi",
+    "address": "Бишкек, пр. Чуй 157",
+    "cuisineTags": [
+      "japanese"
+    ]
+  },
+  {
+    "id": "rest-jp-9",
+    "name": "Kaito",
+    "address": "Бишкек, пр. Чуй 158",
+    "cuisineTags": [
+      "japanese"
+    ]
+  },
+  {
+    "id": "rest-jp-10",
+    "name": "Yumi",
+    "address": "Бишкек, пр. Чуй 159",
+    "cuisineTags": [
+      "japanese"
+    ]
+  },
+  {
+    "id": "rest-it-1",
+    "name": "Trattoria Milano",
+    "address": "Бишкек, ул. Ахунбаева 20",
+    "cuisineTags": [
+      "italian"
+    ]
+  },
+  {
+    "id": "rest-it-2",
+    "name": "Pasta Fresca",
+    "address": "Бишкек, ул. Ахунбаева 21",
+    "cuisineTags": [
+      "italian"
+    ]
+  },
+  {
+    "id": "rest-it-3",
+    "name": "Roma Pizza",
+    "address": "Бишкек, ул. Ахунбаева 22",
+    "cuisineTags": [
+      "italian"
+    ]
+  },
+  {
+    "id": "rest-it-4",
+    "name": "Napoli Oven",
+    "address": "Бишкек, ул. Ахунбаева 23",
+    "cuisineTags": [
+      "italian"
+    ]
+  },
+  {
+    "id": "rest-it-5",
+    "name": "Mamma Mia",
+    "address": "Бишкек, ул. Ахунбаева 24",
+    "cuisineTags": [
+      "italian"
+    ]
+  },
+  {
+    "id": "rest-it-6",
+    "name": "Toscana",
+    "address": "Бишкек, ул. Ахунбаева 25",
+    "cuisineTags": [
+      "italian"
+    ]
+  },
+  {
+    "id": "rest-it-7",
+    "name": "La Piazza",
+    "address": "Бишкек, ул. Ахунбаева 26",
+    "cuisineTags": [
+      "italian"
+    ]
+  },
+  {
+    "id": "rest-it-8",
+    "name": "Bella Italia",
+    "address": "Бишкек, ул. Ахунбаева 27",
+    "cuisineTags": [
+      "italian"
+    ]
+  },
+  {
+    "id": "rest-it-9",
+    "name": "Sicilia",
+    "address": "Бишкек, ул. Ахунбаева 28",
+    "cuisineTags": [
+      "italian"
+    ]
+  },
+  {
+    "id": "rest-it-10",
+    "name": "Amore",
+    "address": "Бишкек, ул. Ахунбаева 29",
+    "cuisineTags": [
+      "italian"
+    ]
+  },
+  {
+    "id": "rest-eu-1",
+    "name": "Euro Bistro",
+    "address": "Бишкек, пр. Манаса 10",
+    "cuisineTags": [
+      "european"
+    ]
+  },
+  {
+    "id": "rest-eu-2",
+    "name": "Vienna Cafe",
+    "address": "Бишкек, пр. Манаса 11",
+    "cuisineTags": [
+      "european"
+    ]
+  },
+  {
+    "id": "rest-eu-3",
+    "name": "Berlin Grill",
+    "address": "Бишкек, пр. Манаса 12",
+    "cuisineTags": [
+      "european"
+    ]
+  },
+  {
+    "id": "rest-eu-4",
+    "name": "Paris Brasserie",
+    "address": "Бишкек, пр. Манаса 13",
+    "cuisineTags": [
+      "european"
+    ]
+  },
+  {
+    "id": "rest-eu-5",
+    "name": "Prague Pub",
+    "address": "Бишкек, пр. Манаса 14",
+    "cuisineTags": [
+      "european"
+    ]
+  },
+  {
+    "id": "rest-eu-6",
+    "name": "Madrid Tapas",
+    "address": "Бишкек, пр. Манаса 15",
+    "cuisineTags": [
+      "european"
+    ]
+  },
+  {
+    "id": "rest-eu-7",
+    "name": "London Dine",
+    "address": "Бишкек, пр. Манаса 16",
+    "cuisineTags": [
+      "european"
+    ]
+  },
+  {
+    "id": "rest-eu-8",
+    "name": "Warsaw Eatery",
+    "address": "Бишкек, пр. Манаса 17",
+    "cuisineTags": [
+      "european"
+    ]
+  },
+  {
+    "id": "rest-eu-9",
+    "name": "Oslo Kitchen",
+    "address": "Бишкек, пр. Манаса 18",
+    "cuisineTags": [
+      "european"
+    ]
+  },
+  {
+    "id": "rest-eu-10",
+    "name": "Helsinki House",
+    "address": "Бишкек, пр. Манаса 19",
+    "cuisineTags": [
+      "european"
+    ]
+  }
+]
