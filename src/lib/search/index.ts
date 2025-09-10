@@ -1,10 +1,10 @@
 import { BuildIndexArgs, SearchHit, DishHit, RestaurantHit, CuisineHit } from './types';
 import { normalize, toSlug } from './slug';
 
-// усреднение «вкладов» совпадений по полям
+
 const avg = (arr: number[]) => arr.reduce((a, b) => a + b, 0) / Math.max(arr.length, 1);
 
-// грубая оценка совпадения: начало строки лучше, чем просто вхождение
+
 function tokenScore(hay: string, needle: string) {
   if (!needle) return 0;
   if (hay.startsWith(needle)) return 1.0;
@@ -12,7 +12,7 @@ function tokenScore(hay: string, needle: string) {
   return 0;
 }
 
-// type guard для .filter()
+
 const notNull = <T>(x: T | null | undefined): x is T => x != null;
 
 export function buildIndex({ dishes, restaurants, cuisines = [] }: BuildIndexArgs) {
@@ -48,7 +48,6 @@ export function buildIndex({ dishes, restaurants, cuisines = [] }: BuildIndexArg
     const q = normalize(raw);
     if (!q) return [];
 
-    // 1) Блюда
     const dishHits = dishIndex
       .map(d => {
         const score = avg([
@@ -73,7 +72,6 @@ export function buildIndex({ dishes, restaurants, cuisines = [] }: BuildIndexArg
       })
       .filter(notNull);
 
-    // 2) Рестораны
     const restHits = restIndex
       .map(r => {
         const score = avg([
@@ -95,7 +93,7 @@ export function buildIndex({ dishes, restaurants, cuisines = [] }: BuildIndexArg
       })
       .filter(notNull);
 
-    // 3) Кухни (если нужны в подсказках)
+
     const cuisineHits = cuisineIndex
       .map(c => {
         const score = tokenScore(c._n, q);
@@ -111,7 +109,6 @@ export function buildIndex({ dishes, restaurants, cuisines = [] }: BuildIndexArg
       })
       .filter(notNull);
 
-    // склеиваем, сортируем по внутреннему score и обрезаем до лимита
     const all: SearchHit[] = [...dishHits, ...restHits, ...cuisineHits]
       .sort((a, b) => b.score - a.score)
       .slice(0, limit);

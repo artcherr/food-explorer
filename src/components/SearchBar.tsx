@@ -40,7 +40,6 @@ export default function SearchBar({
     } else if (hit.kind === "restaurant") {
       router.push(`/restaurant/${hit.slug}`);
     } else {
-      // FIX: убрала лишнюю "}" в конце
       router.push(`/?cuisine=${encodeURIComponent(hit.title)}`);
     }
     setOpen(false);
@@ -82,19 +81,17 @@ export default function SearchBar({
         onFocus={() => setOpen(true)}
         onKeyDown={onKeyDown}
         placeholder="Search dishes, restaurants, cuisines…"
-        // input под тёмный хедер
         className="h-10 w-full max-w-[520px] rounded-2xl px-4 border border-white/10 bg-white/5 placeholder-white/40 text-white outline-none focus:border-white/30"
         aria-autocomplete="list"
         aria-controls="search-listbox"
       />
 
       {open && query && results.length > 0 && (
-        // ДРОПДАУН: без рамок, прозрачный фон, без тени, с blur как у шапки
         <div className="absolute z-50 mt-2 w-full max-w-[520px] rounded-2xl bg-white/10 backdrop-blur-md shadow-lg">
           <ul
             id="search-listbox"
             role="listbox"
-            className="max-h-[60vh] overflow-auto py-2 pr-1 overscroll-contain glass-scroll">
+            className="max-h-[60vh] overflow-auto py-2 pr-1 overscroll-contain glass-scroll ">
             {results.map((hit, i) => (
               <li
                 key={`${hit.kind}-${hit.id}`}
@@ -102,7 +99,6 @@ export default function SearchBar({
                 aria-selected={i === active}
                 onMouseDown={(e) => e.preventDefault()}
                 onClick={() => go(hit)}
-                // прозрачно, подсветка — лёгкий белый слой
                 className={`px-4 py-2 cursor-pointer rounded-lg transition-colors ${
                   i === active ? "bg-white/15" : "hover:bg-white/10"
                 }`}
@@ -125,7 +121,7 @@ export default function SearchBar({
       )}
 
       {open && query && results.length === 0 && (
-        // панель "ничего не найдено" — тоже без рамок/тени, полупрозрачный фон
+
         <div className="absolute z-50 mt-2 w-full max-w-[520px] rounded-2xl bg-white/10 backdrop-blur-md text-white/80 px-4 py-3 text-sm shadow-lg">
           Nothing found. Press Enter to search on the home page.
         </div>

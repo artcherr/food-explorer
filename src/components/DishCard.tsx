@@ -9,7 +9,7 @@ export default function DishCard({ dish }: { dish: Dish }) {
   return (
     <Link href={`/dish/${dish.slug}`} className="group block h-full">
       <article
-        className="h-full min-h-[420px] rounded-2xl overflow-hidden
+        className=" h-[360px] rounded-2xl overflow-hidden
                    bg-[#111114] border border-white/10
                    hover:border-white/20 transition-colors
                    flex flex-col text-center"
@@ -24,11 +24,10 @@ export default function DishCard({ dish }: { dish: Dish }) {
           />
         </div>
 
-        <div className="p-4 flex flex-col gap-2">
+        <div className="p-4 flex flex-col gap-2 h-full">
           <h3 className="text-base font-semibold">{dish.name}</h3>
           <p className="text-sm text-white/70 line-clamp-2">{dish.shortDescription}</p>
 
-          {/* цена всегда прижата к низу */}
           <div className="mt-auto pt-2 text-sm text-white/80">
             {formatPriceSom(avgPrice)} avg
           </div>

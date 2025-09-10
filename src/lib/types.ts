@@ -4,9 +4,10 @@ export interface Restaurant {
   id: string;
   name: string;
   address: string;
-  cuisineTag: Cuisine[];
+  cuisineTags: Cuisine[];
 }
 export interface RestaurantRef {
+	restaurantName: string;
   restaurantId: string;
   price: number; //KGS
 }
@@ -21,5 +22,5 @@ export interface Dish {
   description: string;
   ingredients: string[];
   raiting?: number;
-  places: RestaurantRef[]; //где подают позиции и по какой цене
+  places: RestaurantRef[]; 
 }

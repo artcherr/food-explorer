@@ -1,4 +1,4 @@
-// Простой slug: кириллица → латиница, пробелы → "-", мелкие очистки
+
 const RU_MAP: Record<string, string> = {
 	а: 'a', б: 'b', в: 'v', г: 'g', д: 'd', е: 'e', ё: 'e', ж: 'zh', з: 'z', и: 'i', й: 'i',
 	к: 'k', л: 'l', м: 'm', н: 'n', о: 'o', п: 'p', р: 'r', с: 's', т: 't', у: 'u', ф: 'f',
@@ -17,7 +17,7 @@ export function toSlug(input: string): string {
 		else if (RU_MAP[ch]) out += RU_MAP[ch];
 		else if (/\s|_/.test(ch)) out += '-';
 		else if (/[.-]/.test(ch)) out += ch;
-		// прочие символы — пропускаем
+
 	}
 	return out
 		.replace(/-+/g, '-')
