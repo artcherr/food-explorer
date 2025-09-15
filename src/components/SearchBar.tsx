@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useMemo, useRef, useState } from "react";
-import { useRouter } from "next/navigation";
+import { usePathname, useRouter } from "next/navigation";
 import { buildIndex } from "@/lib/search/index";
 import { SearchHit } from "@/lib/search/types";
 
@@ -18,11 +18,13 @@ export default function SearchBar({
   cuisines?: string[];
 }) {
   const router = useRouter();
+  const pathname = usePathname();
   const [query, setQuery] = useState("");
   const [results, setResults] = useState<SearchHit[]>([]);
   const [open, setOpen] = useState(false);
-  const [active, setActive] = useState(0);
+  const [active, setActive] = useState<number>(-1);
   const inputRef = useRef<HTMLInputElement>(null);
+  const containerRef = useRef<HTMLDivElement>(null);
 
   const { search } = useMemo(
     () => buildIndex({ dishes, restaurants, cuisines }),
@@ -34,6 +36,23 @@ export default function SearchBar({
     return () => clearTimeout(id);
   }, [query, search]);
 
+  useEffect(() => {
+    setOpen(false);
+    setActive(-1);
+  }, [pathname]);
+
+  useEffect(() => {
+    function onDocClick(e: MouseEvent) {
+      if (!containerRef.current) return;
+      if (!containerRef.current.contains(e.target as Node)) {
+        setOpen(false);
+        setActive(-1);
+      }
+    }
+    document.addEventListener("mousedown", onDocClick);
+    return () => document.removeEventListener("mousedown", onDocClick);
+  }, []);
+
   function go(hit: SearchHit) {
     if (hit.kind === "dish") {
       router.push(`/dish/${hit.slug}`);
@@ -43,55 +62,75 @@ export default function SearchBar({
       router.push(`/?cuisine=${encodeURIComponent(hit.title)}`);
     }
     setOpen(false);
+    setActive(-1);
   }
 
   function onKeyDown(e: React.KeyboardEvent<HTMLInputElement>) {
-    if (!results.length) {
-      if (e.key === "Enter" && query.trim()) {
-        e.preventDefault();
-        router.push(`/?q=${encodeURIComponent(query.trim())}`);
-        setOpen(false);
-      }
-      return;
-    }
+    const last = results.length - 1;
+
     if (e.key === "ArrowDown") {
       e.preventDefault();
-      setActive((i) => (i + 1) % results.length);
-    } else if (e.key === "ArrowUp") {
+      setActive((i) => (i < last ? i + 1 : last)); // -1 → 0
+      return;
+    }
+    if (e.key === "ArrowUp") {
       e.preventDefault();
-      setActive((i) => (i - 1 + results.length) % results.length);
-    } else if (e.key === "Enter") {
+      setActive((i) => (i > -1 ? i - 1 : -1)); // 0 → -1
+      return;
+    }
+    if (e.key === "Enter") {
       e.preventDefault();
-      go(results[active] ?? results[0]);
-    } else if (e.key === "Escape") {
+      if (active === -1 || results.length === 0) {
+        const q = query.trim();
+        if (q) router.push(`/?q=${encodeURIComponent(q)}`);
+      } else {
+        go(results[active]);
+      }
+      setOpen(false);
+      return;
+    }
+    if (e.key === "Escape") {
       setOpen(false);
       inputRef.current?.blur();
+      return;
     }
   }
 
   return (
-    <div className="relative" role="combobox" aria-expanded={open} aria-owns="search-listbox">
+    <div
+      className="relative"
+      role="combobox"
+      aria-expanded={open}
+      aria-owns="search-listbox"
+      ref={containerRef}
+    >
       <input
         ref={inputRef}
         value={query}
         onChange={(e) => {
           setQuery(e.target.value);
           setOpen(true);
+          setActive(-1);
         }}
         onFocus={() => setOpen(true)}
         onKeyDown={onKeyDown}
         placeholder="Search dishes, restaurants, cuisines…"
-        className="h-10 w-full max-w-[520px] rounded-2xl px-4 border border-white/10 bg-white/5 placeholder-white/40 text-white outline-none focus:border-white/30"
+        className="h-10 w-full max-w-[520px] rounded-2xl px-4 border border-white/10 bg-white/5 placeholder-white text-white outline-none focus:border-white/30"
         aria-autocomplete="list"
         aria-controls="search-listbox"
       />
 
       {open && query && results.length > 0 && (
-        <div className="absolute z-50 mt-2 w-full max-w-[520px] rounded-2xl bg-white/10 backdrop-blur-md shadow-lg">
+        <div
+          className="absolute z-50 mt-2 w-full max-w-[520px] rounded-2xl
+          bg-black/70 supports-[backdrop-filter]:bg-black/70
+          backdrop-blur backdrop-brightness-75
+          ring-1 ring-white/15 shadow-xl">
           <ul
             id="search-listbox"
             role="listbox"
-            className="max-h-[60vh] overflow-auto py-2 pr-1 overscroll-contain glass-scroll ">
+            className="max-h-[60vh] overflow-auto py-2 pr-1 overscroll-contain glass-scroll "
+          >
             {results.map((hit, i) => (
               <li
                 key={`${hit.kind}-${hit.id}`}
@@ -100,7 +139,7 @@ export default function SearchBar({
                 onMouseDown={(e) => e.preventDefault()}
                 onClick={() => go(hit)}
                 className={`px-4 py-2 cursor-pointer rounded-lg transition-colors ${
-                  i === active ? "bg-white/15" : "hover:bg-white/10"
+                  i === active ? "bg-white/20" : "hover:bg-white/10"
                 }`}
               >
                 <div className="text-sm font-medium text-white">
@@ -121,8 +160,13 @@ export default function SearchBar({
       )}
 
       {open && query && results.length === 0 && (
-
-        <div className="absolute z-50 mt-2 w-full max-w-[520px] rounded-2xl bg-white/10 backdrop-blur-md text-white/80 px-4 py-3 text-sm shadow-lg">
+        <div
+          className=" absolute z-50 mt-2 w-full max-w-[520px] rounded-2xl
+      bg-black/70 supports-[backdrop-filter]:bg-black/40
+      backdrop-blur-xl backdrop-brightness-75
+      ring-1 ring-white/15 shadow-xl
+      text-white/80 px-4 py-3 text-sm"
+        >
           Nothing found. Press Enter to search on the home page.
         </div>
       )}

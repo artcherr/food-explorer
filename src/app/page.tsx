@@ -1,38 +1,26 @@
 import Link from "next/link";
 import Carousel, { CarouselItem } from "@/components/Carousel";
+import ChipBar from "@/components/ChipBar";
 import DishCard from "@/components/DishCard";
 import dishesJson from "@/data/dishes.json";
 import restaurantsJson from "@/data/restaurants.json";
-import type { Cuisine, Dish, Restaurant } from "@/lib/types";
+import { CUISINES, toCuisineKey, type CuisineKey } from "@/lib/cuisines";
 import { toSlug } from "@/lib/search/slug";
+import type { Dish, Restaurant } from "@/lib/types";
 
 export const revalidate = 300; // ISR
 
-const CUISINES: { key: Cuisine; label: string }[] = [
-  { key: "kyrgyz", label: "Kyrgyz" },
-  { key: "uyghur", label: "Uyghur" },
-  { key: "dungan", label: "Dungan" },
-  { key: "japanese", label: "Japanese" },
-  { key: "italian", label: "Italian" },
-  { key: "european", label: "European" },
-];
-
 type PageSearch = { q?: string; cuisine?: string };
 
-export default async function HomePage({
-  searchParams,
-}: {
-  searchParams: Promise<PageSearch>;
-}) {
+export default async function HomePage({ searchParams }: { searchParams: Promise<PageSearch> }) {
   const { q = "", cuisine = "" } = await searchParams;
   const query = q.toLowerCase().trim();
-  const cuisineKey = cuisine.toLowerCase().trim();
+  const cuisineKey = toCuisineKey(cuisine);
   const hasFilters = Boolean(query || cuisineKey);
 
   const dishes = dishesJson as Dish[];
   const restaurants = restaurantsJson as Restaurant[];
 
-  // --- Restaurants filtering ---
   let matchedRestaurants: Restaurant[] = restaurants;
   if (query) {
     matchedRestaurants = matchedRestaurants.filter(
@@ -46,7 +34,6 @@ export default async function HomePage({
       r.cuisineTags.some((tag) => (tag as string).toLowerCase() === cuisineKey),
     );
   }
-
 
   let matchedDishes: Dish[] = dishes;
   if (query) {
@@ -62,9 +49,7 @@ export default async function HomePage({
     });
   }
   if (cuisineKey) {
-    matchedDishes = matchedDishes.filter(
-      (d) => (d.cuisine as string).toLowerCase() === cuisineKey,
-    );
+    matchedDishes = matchedDishes.filter((d) => (d.cuisine as string).toLowerCase() === cuisineKey);
   }
 
   if (!hasFilters) {
@@ -75,6 +60,8 @@ export default async function HomePage({
           <p className="text-white/70 text-sm">
             Browse dishes by cuisine. Click a card to see details and where to try it in Bishkek.
           </p>
+
+          <ChipBar />
         </section>
 
         {CUISINES.map(({ key, label }) => {
@@ -94,7 +81,6 @@ export default async function HomePage({
     );
   }
 
-
   return (
     <div className="space-y-8">
       <section className="rounded-2xl p-6 bg-[#111114] border border-white/10 text-center">
@@ -110,14 +96,13 @@ export default async function HomePage({
         <p className="text-white/70 text-sm">
           {matchedRestaurants.length} restaurants · {matchedDishes.length} dishes
         </p>
-      </section>
 
+        <ChipBar active={cuisineKey ?? undefined} q={query} />
+      </section>
 
       {matchedRestaurants.length > 0 && (
         <section className="space-y-3">
-          <h2 className="text-xl font-semibold">
-            Restaurants ({matchedRestaurants.length})
-          </h2>
+          <h2 className="text-xl font-semibold">Restaurants ({matchedRestaurants.length})</h2>
           <ul className="grid gap-3 sm:grid-cols-2 md:grid-cols-3">
             {matchedRestaurants.map((r) => (
               <li
@@ -137,7 +122,6 @@ export default async function HomePage({
         </section>
       )}
 
-
       {matchedDishes.length > 0 && (
         <section className="space-y-3">
           <h2 className="text-xl font-semibold">Dishes ({matchedDishes.length})</h2>
@@ -148,7 +132,6 @@ export default async function HomePage({
           </div>
         </section>
       )}
-
 
       {matchedRestaurants.length === 0 && matchedDishes.length === 0 && (
         <div className="rounded-2xl bg-white/5 px-4 py-6 text-white/80">

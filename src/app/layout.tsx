@@ -11,7 +11,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="ru">
       <body className="bg-[#0b0b0c] text-white">
-        <header className="sticky top-0 z-20 backdrop-blur border-b border-white/10">
+        <header className="sticky top-0 z-20 backdrop-blur bg-black/70 border-b border-white/10">
           <div className="mx-auto max-w-[1200px] px-[25px] py-4 flex items-center justify-between">
             <div className="text-xl font-semibold">🍽️ Food Explorer</div>
               <HeaderSearch />
