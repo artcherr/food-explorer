@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import Link from 'next/link';             
 import './globals.css';
 import HeaderSearch from '@/components/HeaderSearch';
 
@@ -13,8 +14,15 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body className="bg-[#0b0b0c] text-white">
         <header className="sticky top-0 z-20 backdrop-blur bg-black/70 border-b border-white/10">
           <div className="mx-auto max-w-[1200px] px-[25px] py-4 flex items-center justify-between">
-            <div className="text-xl font-semibold">🍽️ Food Explorer</div>
-              <HeaderSearch />
+            <Link
+              href="/"
+              aria-label="Перейти на главную — Food Explorer"
+              className="text-xl font-semibold hover:opacity-90 focus:outline-none focus:ring-2 focus:ring-white/30 rounded"
+            >
+              🍽️ Food Explorer
+            </Link>
+
+            <HeaderSearch />
           </div>
         </header>
 
