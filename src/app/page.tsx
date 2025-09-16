@@ -1,21 +1,63 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import Carousel, { CarouselItem } from "@/components/Carousel";
 import ChipBar from "@/components/ChipBar";
 import DishCard from "@/components/DishCard";
 import dishesJson from "@/data/dishes.json";
 import restaurantsJson from "@/data/restaurants.json";
-import { CUISINES, toCuisineKey, type CuisineKey } from "@/lib/cuisines";
+import { CUISINES, toCuisineKey, getCuisineLabel } from "@/lib/cuisines";
 import { toSlug } from "@/lib/search/slug";
 import type { Dish, Restaurant } from "@/lib/types";
 
-export const revalidate = 300; // ISR
+export const revalidate = 300;
+
 
 type PageSearch = { q?: string; cuisine?: string };
+
+export async function generateMetadata(
+  { searchParams }: { searchParams: Promise<PageSearch> }
+): Promise<Metadata> {
+  const { q = "", cuisine = "" } = await searchParams;
+  const query = q.trim();
+  const cuisineLabel = getCuisineLabel(cuisine);
+
+  const baseTitle = "Food Explorer — Discover local cuisines";
+  const baseDesc =
+    "Browse dishes and restaurants in Bishkek. Filter by cuisine or search by dish, ingredients, and places.";
+
+  if (!query && !cuisineLabel) {
+    return {
+      title: baseTitle,
+      description: baseDesc,
+      openGraph: { title: baseTitle, description: baseDesc, type: "website", url: "/" },
+      alternates: { canonical: "/" },
+    };
+  }
+
+  const titleParts: string[] = [];
+  if (query) titleParts.push(`Results for “${query}”`);
+  if (cuisineLabel) titleParts.push(`Cuisine: ${cuisineLabel}`);
+  const title = `${titleParts.join(" — ")} · Food Explorer`;
+
+  const description =
+    query && cuisineLabel
+      ? `Search “${query}” in ${cuisineLabel} cuisine.`
+      : query
+      ? `Search results for “${query}”.`
+      : `Browse ${cuisineLabel} cuisine.`;
+
+  return {
+    title,
+    description,
+    openGraph: { title, description, type: "website", url: "/" },
+    alternates: { canonical: "/" },
+  };
+}
 
 export default async function HomePage({ searchParams }: { searchParams: Promise<PageSearch> }) {
   const { q = "", cuisine = "" } = await searchParams;
   const query = q.toLowerCase().trim();
-  const cuisineKey = toCuisineKey(cuisine);
+  const cuisineKey = toCuisineKey(cuisine); // null | key
   const hasFilters = Boolean(query || cuisineKey);
 
   const dishes = dishesJson as Dish[];
@@ -23,15 +65,18 @@ export default async function HomePage({ searchParams }: { searchParams: Promise
 
   let matchedRestaurants: Restaurant[] = restaurants;
   if (query) {
-    matchedRestaurants = matchedRestaurants.filter(
-      (r) =>
-        r.name.toLowerCase().includes(query) ||
-        r.cuisineTags.some((tag) => (tag as string).toLowerCase().includes(query)),
-    );
+    matchedRestaurants = matchedRestaurants.filter((r) => {
+      const byName = r.name.toLowerCase().includes(query);
+      const byCuisine =
+        Array.isArray(r.cuisineTags) &&
+        r.cuisineTags.some((tag) => String(tag).toLowerCase().includes(query));
+      return byName || byCuisine;
+    });
   }
   if (cuisineKey) {
-    matchedRestaurants = matchedRestaurants.filter((r) =>
-      r.cuisineTags.some((tag) => (tag as string).toLowerCase() === cuisineKey),
+    matchedRestaurants = matchedRestaurants.filter(
+      (r) => Array.isArray(r.cuisineTags) &&
+        r.cuisineTags.some((tag) => String(tag).toLowerCase().trim() === cuisineKey)
     );
   }
 
@@ -49,7 +94,9 @@ export default async function HomePage({ searchParams }: { searchParams: Promise
     });
   }
   if (cuisineKey) {
-    matchedDishes = matchedDishes.filter((d) => (d.cuisine as string).toLowerCase() === cuisineKey);
+    matchedDishes = matchedDishes.filter(
+      (d) => String(d.cuisine ?? "").toLowerCase().trim() === cuisineKey
+    );
   }
 
   if (!hasFilters) {
@@ -81,17 +128,15 @@ export default async function HomePage({ searchParams }: { searchParams: Promise
     );
   }
 
+  const cuisineLabel = cuisineKey ? getCuisineLabel(cuisineKey) : "";
+
   return (
     <div className="space-y-8">
       <section className="rounded-2xl p-6 bg-[#111114] border border-white/10 text-center">
         <h1 className="text-2xl mb-2">
           {query && !cuisineKey && <>Results for “{q}”</>}
-          {cuisineKey && !query && <>Cuisine: “{cuisine}”</>}
-          {query && cuisineKey && (
-            <>
-              “{q}” in cuisine “{cuisine}”
-            </>
-          )}
+          {cuisineKey && !query && <>Cuisine: “{cuisineLabel}”</>}
+          {query && cuisineKey && <>“{q}” in cuisine “{cuisineLabel}”</>}
         </h1>
         <p className="text-white/70 text-sm">
           {matchedRestaurants.length} restaurants · {matchedDishes.length} dishes
@@ -111,10 +156,12 @@ export default async function HomePage({ searchParams }: { searchParams: Promise
               >
                 <Link href={`/restaurant/${toSlug(r.name)}`} className="block">
                   <div className="font-medium">{r.name}</div>
-                  {r.cuisineTags?.length ? (
+                  {Array.isArray(r.cuisineTags) && r.cuisineTags.length > 0 ? (
                     <div className="text-sm text-white/60">{r.cuisineTags.join(", ")}</div>
                   ) : null}
-                  <div className="text-xs text-white/50 mt-1">{r.address}</div>
+                  {r.address ? (
+                    <div className="text-xs text-white/50 mt-1">{r.address}</div>
+                  ) : null}
                 </Link>
               </li>
             ))}
