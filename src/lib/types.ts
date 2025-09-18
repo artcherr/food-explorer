@@ -6,11 +6,11 @@ export interface Restaurant {
   address: string;
   cuisineTags: Cuisine[];
 }
-export interface RestaurantRef {
-	restaurantName: string;
-  restaurantId: string;
-  price: number; //KGS
-}
+
+
+type ById = { restaurantId: string; restaurantName?: string };
+type ByName = { restaurantName: string; restaurantId?: string };
+export type RestaurantRef = (ById | ByName) & { price: number };
 
 export interface Dish {
   id: string;
@@ -21,7 +21,7 @@ export interface Dish {
   shortDescription: string;
   description: string;
   ingredients: string[];
-  raiting?: number;
-  places: RestaurantRef[]; 
-  price?: number;
+  rating?: number;           
+  places: RestaurantRef[];
+  price?: number;             
 }
