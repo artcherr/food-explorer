@@ -23,4 +23,5 @@ export interface Dish {
   ingredients: string[];
   raiting?: number;
   places: RestaurantRef[]; 
+  price?: number;
 }
