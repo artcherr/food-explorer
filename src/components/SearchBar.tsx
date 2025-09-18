@@ -97,13 +97,7 @@ export default function SearchBar({
   }
 
   return (
-    <div
-      className="relative"
-      role="combobox"
-      aria-expanded={open}
-      aria-owns="search-listbox"
-      ref={containerRef}
-    >
+    <div className="relative" aria-expanded={open} aria-owns="search-listbox" ref={containerRef}>
       <input
         ref={inputRef}
         value={query}
@@ -116,8 +110,11 @@ export default function SearchBar({
         onKeyDown={onKeyDown}
         placeholder="Search dishes, restaurants, cuisines…"
         className="h-10 w-full max-w-[520px] rounded-2xl px-4 border border-white/10 bg-white/5 placeholder-white text-white outline-none focus:border-white/30"
+        role="combobox"
         aria-autocomplete="list"
+        aria-expanded={open}
         aria-controls="search-listbox"
+        aria-activedescendant={active >= 0 ? `hit-${active}` : undefined}
       />
 
       {open && query && results.length > 0 && (
@@ -125,7 +122,8 @@ export default function SearchBar({
           className="absolute z-50 mt-2 w-full max-w-[520px] rounded-2xl
           bg-black/70 supports-[backdrop-filter]:bg-black/70
           backdrop-blur backdrop-brightness-75
-          ring-1 ring-white/15 shadow-xl">
+          ring-1 ring-white/15 shadow-xl"
+        >
           <ul
             id="search-listbox"
             role="listbox"
@@ -133,6 +131,7 @@ export default function SearchBar({
           >
             {results.map((hit, i) => (
               <li
+                id={`hit-${i}`} 
                 key={`${hit.kind}-${hit.id}`}
                 role="option"
                 aria-selected={i === active}

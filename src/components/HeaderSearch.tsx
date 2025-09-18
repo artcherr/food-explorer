@@ -1,38 +1,31 @@
-'use client';
+"use client";
 
-import SearchBar from './SearchBar';
-import dishes from '@/data/dishes.json';
-import restaurants from '@/data/restaurants.json';
+import dishesJson from "@/data/dishes.json";
+import restaurantsJson from "@/data/restaurants.json";
+import { CUISINES } from "@/lib/cuisines";
+import type { Dish, Restaurant } from "@/lib/types";
+import SearchBar from "./SearchBar";
+
+type DishLite = { name: string; restaurantName?: string; cuisine?: string; price?: number };
+type RestLite = { name: string; cuisines?: string[] | string };
 
 export default function HeaderSearch() {
+  const dishesFull = dishesJson as Dish[];
+  const restaurantsFull = restaurantsJson as Restaurant[];
 
-    const cuisinesFromRestaurants = new Set(
-    (restaurants as any[]).flatMap(r =>
-      Array.isArray(r.cuisineTags)
-        ? r.cuisineTags
-        : r.cuisineTags
-        ? [r.cuisineTags]
-        : []
-    )
-  );
-
-   for (const d of dishes as any[]) {
-    if (d.cuisine) cuisinesFromRestaurants.add(d.cuisine);
-  }
-
-   const cuisines = Array.from(cuisinesFromRestaurants) as string[];
- 
-  const dishLite = (dishes as any[]).map(d => ({
-    name: d.name ?? '',
-    restaurantName: d.places?.[0]?.restaurantName ?? '',
-    cuisine: d.cuisine ?? '',
-    price: d.places?.[0]?.price, 
+  const dishes: DishLite[] = dishesFull.map((d) => ({
+    name: d.name,
+    cuisine: typeof d.cuisine === "string" ? d.cuisine : String(d.cuisine ?? ""),
+    price: typeof d.price === "number" ? d.price : undefined,
   }));
 
-  const restLite = (restaurants as any[]).map(r => ({
-    name: r.name ?? '',
-    cuisines: r.cuisineTags ?? [], 
+  const restaurants: RestLite[] = restaurantsFull.map((r) => ({
+    name: r.name,
+    cuisines: Array.isArray(r.cuisineTags) ? r.cuisineTags : [],
   }));
 
-  return <SearchBar dishes={dishLite} restaurants={restLite} cuisines={cuisines} />;
+  // ключи кухонь из единого справочника
+  const cuisines: string[] = CUISINES.map((c) => c.key);
+
+  return <SearchBar dishes={dishes} restaurants={restaurants} cuisines={cuisines} />;
 }
