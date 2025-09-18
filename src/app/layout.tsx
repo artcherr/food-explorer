@@ -1,11 +1,16 @@
-import type { Metadata } from 'next';
-import Link from 'next/link';             
-import './globals.css';
-import HeaderSearch from '@/components/HeaderSearch';
+import type { Metadata } from "next";
+import Link from "next/link";
+import "./globals.css";
+import HeaderSearch from "@/components/HeaderSearch";
+
+const baseUrl =
+  process.env.NEXT_PUBLIC_BASE_URL ||
+  (process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : "http://localhost:3000");
 
 export const metadata: Metadata = {
-  title: 'Food Explorer Lite',
-  description: 'Cuisine carousels & dish details — Next.js App Router demo',
+  metadataBase: new URL(baseUrl),
+  title: "Food Explorer Lite",
+  description: "Cuisine carousels & dish details — Next.js App Router demo",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
@@ -26,9 +31,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           </div>
         </header>
 
-        <main className="mx-auto max-w-[1200px] px-[25px] py-8">
-          {children}
-        </main>
+        <main className="mx-auto max-w-[1200px] px-[25px] py-8">{children}</main>
 
         <footer className="border-t border-white/10 mt-12">
           <div className="mx-auto max-w-[1200px] px-[25px] py-6 text-sm text-white/60 text-center">
